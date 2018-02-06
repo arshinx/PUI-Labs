@@ -8,6 +8,11 @@ header {
     color: white;
 }
 
+header a {
+    color: gold;
+    text-decoration: none;
+}
+
 h1 {
     margin: 0;
 }
@@ -31,6 +36,8 @@ body {
     background-color: #eeeeee;
     border: 1px solid #cccccc;
 }
+
+
 
 .list-title {
     margin-left: 20px;
