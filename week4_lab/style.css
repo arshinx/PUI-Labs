@@ -1,8 +1,10 @@
 
-
+/* Nav Area */
 header {
     text-align: center;
 }
+
+/* Body Content */
 #todo-lists {
     margin: 0 auto;
     width: 80%;
