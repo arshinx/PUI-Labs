@@ -21,6 +21,7 @@ h1 {
 body {
     margin: 0; /* Explicitly reset margins */
     color: teal;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Lists */
