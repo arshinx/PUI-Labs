@@ -12,6 +12,7 @@ h1 {
 /* Body Content */
 body {
     margin: 0; /* Explicitly reset margins */
+    color: teal;
 }
 
 /* Lists */
