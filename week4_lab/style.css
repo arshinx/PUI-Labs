@@ -3,6 +3,9 @@
 header {
     text-align: center;
     padding: 10px;
+
+    background-color: teal;
+    color: white;
 }
 
 h1 {
