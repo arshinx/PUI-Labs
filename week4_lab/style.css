@@ -5,6 +5,10 @@ header {
 }
 
 /* Body Content */
+body {
+    margin: 0; /* Explicitly reset margins */
+}
+
 #todo-lists {
     margin: 0 auto;
     width: 80%;
