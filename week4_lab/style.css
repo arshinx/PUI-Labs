@@ -14,7 +14,17 @@ body {
     margin: 0; /* Explicitly reset margins */
 }
 
+/* Lists */
 #todo-lists {
     margin: 0 auto;
     width: 80%;
+}
+
+.list {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.list-title {
+    margin-left: 20px;
 }
