@@ -27,6 +27,9 @@ body {
 .list {
     padding: 10px;
     margin-bottom: 10px;
+
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
 }
 
 .list-title {
