@@ -2,6 +2,11 @@
 
 05-430 Assignments and Labs. Franceska is the TA and Grader for these assignments and labs.
 
+Links:
+-----
+- Week 4 Lab
+- 
+
 Revisions:
 ----------
 - 0.0: Week 4 Lab (Todo list site) added - on Tue, Feb 6 2018.
