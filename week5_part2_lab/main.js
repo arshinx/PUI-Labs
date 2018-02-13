@@ -14,11 +14,18 @@ function addListItem() {
     // New todo item
     var newItem = document.createElement("li");
 
-    // New node with input value
-    newItem.appendChild(document.createTextNode(itemInput.value));
+    // User input
+    var value = itemInput.value;
 
-    // Add new item - display
-    list.appendChild(newItem);
+    if (value.length > 0) {
+      // New node with input value
+      newItem.appendChild(document.createTextNode(itemInput.value));
+
+      // Add new item - display
+      list.appendChild(newItem);
+    } else {
+      alert("Type something to add to list!");
+    }
 
 }
 
