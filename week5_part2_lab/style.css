@@ -62,4 +62,5 @@ button {
 input {
     padding: 10px;
     font-size: 0.8em;
+    border-color: lightblue;
 }
