@@ -7,4 +7,8 @@ function addListItem() {
 
     // Get the list
     var list = document.getElementById("grocery-list");
+
+    // Get input
+    var itemInput = document.getElementById("new-list-item");
+
 }
