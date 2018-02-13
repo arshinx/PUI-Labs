@@ -17,5 +17,7 @@ function addListItem() {
     // New node with input value
     newItem.appendChild(document.createTextNode(itemInput.value));
 
+    // Add new item - display
+    list.appendChild(newItem);
 
 }
