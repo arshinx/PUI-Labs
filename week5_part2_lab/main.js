@@ -11,4 +11,9 @@ function addListItem() {
     // Get input
     var itemInput = document.getElementById("new-list-item");
 
+    // New todo item
+    var newItem = document.createElement("li");
+
+
+
 }
