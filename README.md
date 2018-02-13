@@ -5,7 +5,8 @@
 Links:
 -----
 - Week 4 Lab
-- 
+- Week 5 Lab (Part 1)
+- Week 5 Lab (Part 2)
 
 Revisions:
 ----------
