@@ -14,6 +14,8 @@ function addListItem() {
     // New todo item
     var newItem = document.createElement("li");
 
+    // New node with input value
+    newItem.appendChild(document.createTextNode(itemInput.value));
 
 
 }
