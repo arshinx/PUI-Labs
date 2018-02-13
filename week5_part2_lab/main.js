@@ -21,3 +21,8 @@ function addListItem() {
     list.appendChild(newItem);
 
 }
+
+function deleteListItem(item) {
+	    // remove li element (item) from ol element (item.parentNode)
+ 	    item.parentNode.removeChild(item);
+}
