@@ -1,0 +1,50 @@
+
+/* Nav Area */
+header {
+    text-align: center;
+    padding: 10px;
+
+    background-color: teal;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+header a {
+    color: gold;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Body Content */
+body {
+    margin: 0; /* Explicitly reset margins */
+    color: teal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Lists */
+#todo-lists {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.list {
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
+.list a {
+    color: teal;
+    text-decoration: none;
+}
+
+
+.list-title {
+    margin-left: 20px;
+}
