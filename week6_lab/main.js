@@ -47,8 +47,18 @@ function completeListItem(item) {
     }
 }
 
-/*
 // JQuery Version
+
+// On click - delete
+$(document).on("click", ".delete-item", function() {
+    $(this).parent().remove();
+});
+
+
+
+
+
+/*
 $(document).ready(function(){
 
   // Add Item
