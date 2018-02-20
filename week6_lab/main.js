@@ -54,7 +54,12 @@ $(document).on("click", ".delete-item", function() {
     $(this).parent().remove();
 });
 
-
+// On click - add item
+$(document).on("click", "#add-item", function() {
+    var list = $("#grocery-list");
+    var itemInput = $("#new-list-item");
+    list.append("<li>" + itemInput.val() + " <button class='delete-item'>X</button></li>");
+});
 
 
 
