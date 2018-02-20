@@ -51,12 +51,12 @@ function completeListItem(item) {
 
 // On click - add item
 $(document).on("click", ".complete-item", function() {
-  console.log($(this));
   if ($(this)[0].checked) {
-    //$(this).parent().remove();
-    console.log("clicked");
+    $(this).css("textDecoration", "line-through");
+    console.log("selected");
   } else {
-    console.log("not clicked");
+    $(this).css("textDecoration", "none");
+    console.log("else");
   }
 });
 
