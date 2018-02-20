@@ -57,4 +57,10 @@ $(document).ready(function(){
     // append the input value within an li element
     list.append("<li>" + itemInput.val() + "</li>");
   });
+
+  // Delete Item
+  $(".delete-item").click(function() {
+    $(this).parent().remove();
+  });
+
 });
