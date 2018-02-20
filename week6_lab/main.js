@@ -4,7 +4,7 @@ function addNewList() {
     alert('hello world!');
 }
 
-// JS (Non-Jquery Version)
+// -- JS (Non-Jquery Version) --
 function addListItem() {
     console.log('hello world');
 
@@ -47,18 +47,18 @@ function completeListItem(item) {
     }
 }
 
-// JQuery Version
-
-// On click - delete
-$(document).on("click", ".delete-item", function() {
-    $(this).parent().remove();
-});
+// -- JQuery Version --
 
 // On click - add item
 $(document).on("click", "#add-item", function() {
     var list = $("#grocery-list");
     var itemInput = $("#new-list-item");
     list.append("<li>" + itemInput.val() + " <button class='delete-item'>X</button></li>");
+});
+
+// On click - delete
+$(document).on("click", ".delete-item", function() {
+    $(this).parent().remove();
 });
 
 
