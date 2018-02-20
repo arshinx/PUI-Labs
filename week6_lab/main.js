@@ -65,6 +65,7 @@ $(document).ready(function(){
   // Delete Item
   $(".delete-item").click(function() {
     $(this).parent().remove();
+    console.log("test");
   });
 
 });
