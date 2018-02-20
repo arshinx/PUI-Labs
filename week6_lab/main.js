@@ -1,7 +1,10 @@
+
+// Test Function
 function addNewList() {
     alert('hello world!');
 }
 
+// JS (Non-Jquery Version) 
 function addListItem() {
     console.log('hello world');
 
@@ -43,3 +46,5 @@ function completeListItem(item) {
         // in css, this would be: "text-decoration: none"
     }
 }
+
+// JQuery Version
