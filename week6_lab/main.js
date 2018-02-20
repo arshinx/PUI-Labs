@@ -52,11 +52,9 @@ function completeListItem(item) {
 // On click - add item
 $(document).on("click", ".complete-item", function() {
   if ($(this)[0].checked) {
-    $(this).css("textDecoration", "line-through");
-    console.log("selected");
+    $(this).parent().css("textDecoration", "line-through");
   } else {
-    $(this).css("textDecoration", "none");
-    console.log("else");
+    $(this).parent().css("textDecoration", "none");
   }
 });
 
