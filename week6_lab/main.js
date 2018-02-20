@@ -50,10 +50,11 @@ function completeListItem(item) {
 // -- JQuery Version --
 
 // On click - add item
-$(document).on("click", "#add-item", function() {
-    var list = $("#grocery-list");
-    var itemInput = $("#new-list-item");
-    list.append("<li>" + itemInput.val() + " <button class='delete-item'>X</button></li>");
+$(document).on("click", ".complete-item", function() {
+  console.log($(this));
+  if ($(this).checked) {
+    $(this).parent().remove();
+  }
 });
 
 // On click - delete
