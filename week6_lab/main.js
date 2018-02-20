@@ -47,6 +47,7 @@ function completeListItem(item) {
     }
 }
 
+/*
 // JQuery Version
 $(document).ready(function(){
 
@@ -69,3 +70,4 @@ $(document).ready(function(){
   });
 
 });
+*/
