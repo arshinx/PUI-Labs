@@ -53,9 +53,10 @@ function completeListItem(item) {
 $(document).on("click", ".complete-item", function() {
   console.log($(this));
   if ($(this)[0].checked) {
-    $(this).parent().remove();
+    //$(this).parent().remove();
+    console.log("clicked");
   } else {
-    console.log(clicked);
+    console.log("not clicked");
   }
 });
 
