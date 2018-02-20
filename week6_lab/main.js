@@ -62,7 +62,12 @@ $(document).on("click", ".delete-item", function() {
     $(this).parent().remove();
 });
 
-
+// On click - complete todo item
+$(document).on("click", "#add-item", function() {
+    var list = $("#grocery-list");
+    var itemInput = $("#new-list-item");
+    list.append("<li>" + "<input type='checkbox' class='complete-item'>" + itemInput.val() + " <button class='delete-item'>X</button></li>");
+});
 
 /*
 $(document).ready(function(){
