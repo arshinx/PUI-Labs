@@ -52,8 +52,10 @@ function completeListItem(item) {
 // On click - add item
 $(document).on("click", ".complete-item", function() {
   console.log($(this));
-  if ($(this).checked) {
+  if ($(this)[0].checked) {
     $(this).parent().remove();
+  } else {
+    console.log(clicked);
   }
 });
 
