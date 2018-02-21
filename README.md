@@ -1,6 +1,6 @@
 # PUI Labs and Assignments
 
-05-430 Assignments and Labs. Franceska is the TA and Grader for these assignments and labs.
+05-430 Assignments and Labs. Franceska is the TA and Grader for the assignments and labs.
 
 Work is in HTML, CSS and Javascript.
 
