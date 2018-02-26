@@ -19,3 +19,4 @@ Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPH
 3. Verify if composition and layout are as intended.
 4. Add Styling, starting with images, then fonts, then colors.
 5. Verify if the composition and overall styling are as intended.
+6. Publish and document process/notes.
