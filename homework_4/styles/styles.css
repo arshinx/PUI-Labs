@@ -92,3 +92,12 @@ footer { /* Basic Bar Setup */
   text-align: left;
   padding-left: 5%;
 }
+
+footer ul { /* ul: remove unnecessary formatting */
+  padding: 0px;
+  padding-right: 30px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
