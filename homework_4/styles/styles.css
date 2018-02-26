@@ -10,7 +10,7 @@ body {
   /* BG Image */
   background-image: url("../assets/bg.png");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 160% 50%;
   background-attachment: fixed;
 }
 
