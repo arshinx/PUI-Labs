@@ -15,6 +15,11 @@ body {
   text-align: center;
 }
 
+/* Organize navbar elements */
 .brand-logo {
   float: left;
+}
+
+.nav-items {
+  float: right;
 }
