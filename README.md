@@ -15,7 +15,7 @@ Labs
 Homeworks
 - [Homework 3 - Prototype](https://invis.io/5ZG19FPHVTU)
 
-- [Homework 4 (Coming Soon...)](http://arshin.me/PUI-Labs/homework4)
+- [Homework 4 (Coming Soon...)](http://arshin.me/PUI-Labs/homework_4)
 
 Revisions:
 ----------
