@@ -1,6 +1,6 @@
 ##Homework 4: Web Design for Flip Stitch Pillows
 
-Developing a website based on the InVision prototype and High Fidelity Designs made in earlier iteration [(during homework 3)]().
+Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPHVTU) and High Fidelity Designs made in earlier iteration [(during homework 3)](https://invis.io/5ZG19FPHVTU).
 
 ###Specs and Key Task:
 
