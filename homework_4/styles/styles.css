@@ -15,7 +15,6 @@ header {
 }
 
 .navigation-bar { /* Basic Bar Setup */
-  background-color: #fff;
   height: 20%;
   width: 100%;
   text-align: center;
@@ -98,8 +97,6 @@ header {
 /* Footer */
 
 footer { /* Basic Bar Setup */
-  background-color: #fff;
-  width: 100%;
   text-align: left;
   padding-left: 5%;
 }
