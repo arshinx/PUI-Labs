@@ -17,3 +17,4 @@ Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPH
 1. Outline each page to be developed in "box layers".
 2. Create a high level structure of elements.
 3. Verify if composition and layout are as intended.
+4. Add Styling, starting with images, then fonts, then colors.
