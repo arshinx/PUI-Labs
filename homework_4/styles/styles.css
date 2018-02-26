@@ -38,3 +38,9 @@ body {
   padding: 10px;
   display: inline;
 }
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
