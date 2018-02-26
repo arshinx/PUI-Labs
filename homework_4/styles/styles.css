@@ -83,3 +83,12 @@ body {
 .right-section {
   width: 50%;
 }
+
+/* Footer */
+
+footer { /* Basic Bar Setup */
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  padding-left: 5%;
+}
