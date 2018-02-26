@@ -25,7 +25,7 @@ header {
 .brand-logo {
   float: left;
   margin-left: 10%;
-  height: 120%;
+  height: 70px;
 }
 
 .nav-items {
@@ -57,7 +57,7 @@ header {
 
 /* Content */
 .main-content {
-  height: 350px;
+  height: 55%;
 }
 
 .left-section {
