@@ -10,6 +10,10 @@ body {
 
 /* Navigation Bar */
 
+header {
+  height: 22%;
+}
+
 .navigation-bar { /* Basic Bar Setup */
   background-color: #fff;
   height: 60px;
