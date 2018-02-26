@@ -10,7 +10,7 @@ body {
 
 .navigation-bar { /* Basic Bar Setup */
   background-color: #fff;
-  height: 167px;
+  height: 60px;
   width: 100%;
   text-align: center;
   padding-top: 5%;
@@ -20,7 +20,7 @@ body {
 .brand-logo {
   float: left;
   margin-left: 10%;
-  height: 50%;
+  height: 120%;
 }
 
 .nav-items {
