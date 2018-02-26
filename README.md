@@ -23,3 +23,4 @@ Revisions:
 - 0.2: Week 5 Lab Parts 1 and 2 (Todo list + JS) added - on Tue, Feb 13 2018.
 - 0.3: Week 6 Lab (Todo list using Jquery) added - on Tue, Feb 20 2018.
 - 0.4: Homework 3 (InVision Prototype) link added.
+- 0.5: Homework 4 (Web Design based on Prototype) link added - on Mon, Feb 26 2018.
