@@ -23,3 +23,11 @@ body {
 .nav-items {
   float: right;
 }
+
+.navigation-bar ul { /* ul: remove unnecessary formatting */
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
