@@ -14,3 +14,7 @@ body {
   width: 100%;
   text-align: center;
 }
+
+.brand-logo {
+  float: left;
+}
