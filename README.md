@@ -1,4 +1,4 @@
-# PUI Labs and Assignments
+## PUI Labs and Assignments
 
 05-430 Assignments and Labs. Franceska is the TA and Grader for the assignments and labs.
 
