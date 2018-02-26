@@ -57,6 +57,9 @@ body {
   text-align: left;
 }
 
+.content-headings {
+  line-height: 0.2; /* Decrease height between content heading elements */
+}
 
 .right-section {
   width: 50%;
