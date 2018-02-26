@@ -101,3 +101,9 @@ footer ul { /* ul: remove unnecessary formatting */
   display: inline-block;
   vertical-align: top;
 }
+
+footer li /* li: remove unnecessary formatting */ {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+}
