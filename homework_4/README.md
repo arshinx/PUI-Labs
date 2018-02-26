@@ -4,7 +4,7 @@ Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPH
 
 ### Specs and Key Task:
 
-Create HTML files for each of the 3 required pages:
+#### Create HTML files for each of the 3 required pages:
 1. The home page
 2. The product browsing page that shows the variety of items the store has
 3. The product detail page  
