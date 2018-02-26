@@ -6,7 +6,23 @@ html, body { height: 100%; }
 body {
   margin: 0;
   padding: 0;
+
+  /* BG Image */
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed;
 }
+
+/*
+html {
+  background: url("../assets/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
 
 /* Navigation Bar */
 
