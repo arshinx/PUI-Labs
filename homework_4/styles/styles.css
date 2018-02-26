@@ -19,6 +19,7 @@ body {
 /* Organize navbar elements */
 .brand-logo {
   float: left;
+  margin-left: 10%;
 }
 
 .nav-items {
