@@ -61,6 +61,14 @@ body {
   line-height: 0.2; /* Decrease height between content heading elements */
 }
 
+.content-headings h1 {
+  font-size: 60px;
+}
+
+.content-headings h2 {
+  font-size: 48px;
+}
+
 .left-section button {
   height: 40px;
   width: 120px;
