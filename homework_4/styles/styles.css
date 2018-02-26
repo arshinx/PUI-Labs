@@ -53,8 +53,10 @@ body {
 /* Content */
 .left-section {
   width: 50%;
-  text-align: center;
+  padding-left: 15%;
+  text-align: left;
 }
+
 
 .right-section {
   width: 50%;
