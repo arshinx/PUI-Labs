@@ -61,6 +61,13 @@ body {
   line-height: 0.2; /* Decrease height between content heading elements */
 }
 
+.left-section button {
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #92704e;
+}
+
 .right-section {
   width: 50%;
 }
