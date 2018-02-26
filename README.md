@@ -13,8 +13,7 @@ Labs
 - [Week 6 Lab](http://arshin.me/PUI-Labs/week6_lab/)
 
 Homeworks
-- [Homework 3 - Prototype](https://invis.io/5ZG19FPHVTU)
-
+- [Homework 3 - InVision Prototype](https://invis.io/5ZG19FPHVTU)
 - [Homework 4 (Coming Soon...)](http://arshin.me/PUI-Labs/homework_4)
 
 Revisions:
@@ -23,3 +22,4 @@ Revisions:
 - 0.1: Franceska's Test File added - on Tue, Feb 6 2018.
 - 0.2: Week 5 Lab Parts 1 and 2 (Todo list + JS) added - on Tue, Feb 13 2018.
 - 0.3: Week 6 Lab (Todo list using Jquery) added - on Tue, Feb 20 2018.
+- 0.4: Homework 3 (InVision Prototype) link added.
