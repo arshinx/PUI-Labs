@@ -58,6 +58,7 @@ header {
 
 /* Content */
 .main-content {
+  height: 350px;
 }
 
 .left-section {
