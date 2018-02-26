@@ -26,6 +26,7 @@ body {
 
 .navigation-bar ul { /* ul: remove unnecessary formatting */
   padding: 0px;
+  padding-right: 30px;
   margin: 0px;
   text-align: center;
   display: inline-block;
