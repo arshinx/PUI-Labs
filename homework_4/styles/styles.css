@@ -35,9 +35,6 @@ body {
 
 .navigation-bar li /* li: remove unnecessary formatting */ {
   list-style-type: none;
-  padding: 0px;
-  height: 24px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  padding: 10px;
   display: inline;
 }
