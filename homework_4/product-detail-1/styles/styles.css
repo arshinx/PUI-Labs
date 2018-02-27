@@ -164,3 +164,15 @@ header {
   background-color: lightgray;
   color: darkgray;
 }
+
+.spacer {
+  padding-top: 20px;
+}
+
+.spacer button {
+  height: 50px;
+  width: 200px;
+  margin-right: 10px;
+  color: black;
+  background-color: lightgray;
+}
