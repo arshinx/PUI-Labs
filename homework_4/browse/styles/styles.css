@@ -118,6 +118,11 @@ header {
   width: 70%;
   display: block;
 }
+
+.gray {
+  color: lightgray;
+}
+
 /* Content - Two Columns */
 #wrapper {
   margin-right: 300px;
