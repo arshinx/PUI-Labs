@@ -93,28 +93,28 @@ header {
 
 /* Filters Menu */
 
-.exp-left-nav-color-select .color-choice {
+.color-choice {
   height: 24px;
   width: 24px;
   display: inline-block;
   border-radius: 24px;
   margin-right: 10px;
   margin-top: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
-.exp-left-nav-color-select .color-choice.green {
+.color-choice.green {
   background-color: green;
 }
-.exp-left-nav-color-select .color-choice.yellow {
+.color-choice.yellow {
   background-color: yellow;
 }
-.exp-left-nav-color-select .color-choice.orange {
+.color-choice.orange {
   background-color: orange;
 }
-.exp-left-nav-color-select .color-choice.blue{
+.color-choice.blue{
   background-color: blue;
 }
