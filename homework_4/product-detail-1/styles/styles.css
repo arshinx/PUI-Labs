@@ -171,8 +171,8 @@ header {
 
 .spacer button {
   height: 50px;
-  width: 200px;
-  margin-right: 10px;
-  color: black;
-  background-color: lightgray;
+  width: 100px;
+  margin-right: 15px;
+  color: white;
+  background-color: #92704e
 }
