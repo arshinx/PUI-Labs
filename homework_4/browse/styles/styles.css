@@ -139,3 +139,7 @@ header {
 #cleared {
   clear: both;
 }
+
+.main-content {
+  margin-left: 5%;
+}
