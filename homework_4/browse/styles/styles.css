@@ -100,12 +100,21 @@ header {
   border-radius: 24px;
   margin-right: 10px;
   margin-top: 8px;
-}
-
-.exp-left-nav-color-select .color-choice.white {
-  background-color: orange;
   border: 1px solid #ccc;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.exp-left-nav-color-select .color-choice.green {
+  background-color: green;
+}
+.exp-left-nav-color-select .color-choice.yellow {
+  background-color: yellow;
+}
+.exp-left-nav-color-select .color-choice.orange {
+  background-color: orange;
+}
+.exp-left-nav-color-select .color-choice.blue{
+  background-color: blue;
 }
