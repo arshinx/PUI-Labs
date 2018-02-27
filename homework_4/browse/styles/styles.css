@@ -90,3 +90,22 @@ header {
     display: grid;
   }
 }
+
+/* Filters Menu */
+
+.exp-left-nav-color-select .color-choice {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  border-radius: 24px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.exp-left-nav-color-select .color-choice.white {
+  background-color: orange;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
