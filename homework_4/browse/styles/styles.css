@@ -6,12 +6,6 @@ html, body { height: 100%; }
 body {
   margin: 0;
   padding: 0;
-
-  /* BG Image */
-  background-image: url("../assets/bg.png");
-  background-repeat: no-repeat;
-  background-position: 140% 50%;
-  background-attachment: fixed;
 }
 
 /*
@@ -141,39 +135,7 @@ footer li a {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1300px) {
-  body {
-    background-position: 180% 50%;
-  }
-}
-@media screen and (max-width: 1200px) {
-  body {
-    background-position: 220% 50%;
-  }
-}
-
-@media screen and (max-width: 1150px) {
-  body {
-    background-position: 260% 50%;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  body {
-    background-position: 350% 50%;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  body {
-    background-position: 450% 50%;
-  }
-}
-
 @media screen and (max-width: 915px) {
-  body {
-    background-position: 0% 50%;
-  }
   .nav-items li /* vertical */ {
     display: grid;
   }
