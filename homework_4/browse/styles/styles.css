@@ -150,9 +150,9 @@ header {
 .column-right{ float: right; width: 33%; text-decoration: none;}
 .column-center{ display: inline-block; width: 33%; text-decoration: none;}
 
-.column-left a{text-decoration: none;}
-.column-right a{ text-decoration: none;}
-.column-center a{ text-decoration: none;}
+.column-left a{text-decoration: none; color: black;}
+.column-right a{ text-decoration: none; color: black;}
+.column-center a{ text-decoration: none; color: black;}
 
 /* Pagination */
 .pagination {
