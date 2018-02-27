@@ -2,7 +2,7 @@
 
 Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPHVTU) and High Fidelity Designs made in earlier iteration [(during homework 3)](https://invis.io/5ZG19FPHVTU).
 
-### Specs and Key Task:
+### Specs and Key Tasks:
 
 #### Create HTML files for each of the 3 required pages:
 1. The home page
@@ -20,3 +20,8 @@ Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPH
 4. Add Styling, starting with images, then fonts, then colors.
 5. Verify if the composition and overall styling are as intended.
 6. Publish and document process/notes.
+
+#### External Sources used for guidance and support
+
+1. W3Schools (primary use as CSS and HTML documentation reference)
+2. StackOverflow (minimal use)
