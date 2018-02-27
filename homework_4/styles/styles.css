@@ -174,4 +174,7 @@ footer li a {
   body {
     background-position: 0% 50%;
   }
+  .nav-items li /* vertical */ {
+    display: grid;
+  }
 }
