@@ -118,17 +118,17 @@ header {
 
 /* Content - Two Columns */
 #wrapper {
-  margin-right: 400px;
+  margin-right: 600px;
 }
 .left-section {
   float: left;
-  width: 400px;
+  width: 600px;
 
 }
 .right-section {
   float: right;
   width: 100%;
-  margin-right: -400px;
+  margin-right: -600px;
 }
 #cleared {
   clear: both;
