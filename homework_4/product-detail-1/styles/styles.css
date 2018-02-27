@@ -85,6 +85,10 @@ header {
   -webkit-box-sizing: border-box;
 }
 
+.color-ul li {
+  display: inline;
+}
+
 .color-choice.green {
   background-color: green;
 }
