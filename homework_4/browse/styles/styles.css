@@ -10,7 +10,6 @@ body {
 
 
 /* Navigation Bar */
-
 header {
   height: 22%;
 }
@@ -156,5 +155,5 @@ header {
   width: 150px;
   height: 40px;
   background-color: lightgray;
-  color: darkgray;
+  color: black;
 }
