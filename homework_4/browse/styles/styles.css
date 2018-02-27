@@ -149,3 +149,17 @@ header {
 .column-left{ float: left; width: 33%; }
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; }
+
+/* Pagination */
+.pagination {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.pagination button {
+  width: 150px;
+  height: 40px;
+  background-color: lightgray;
+  color: darkgray;
+}
