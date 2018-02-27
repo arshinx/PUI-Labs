@@ -1,0 +1,180 @@
+/* Styles */
+
+/* Base Styling */
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /* BG Image */
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: 140% 50%;
+  background-attachment: fixed;
+}
+
+/*
+html {
+  background: url("../assets/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+/* Navigation Bar */
+
+header {
+  height: 22%;
+}
+
+.navigation-bar { /* Basic Bar Setup */
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+/* Organize navbar elements */
+.brand-logo {
+  float: left;
+  margin-left: 10%;
+  height: 70px;
+}
+
+.nav-items {
+  float: right;
+}
+
+.navigation-bar ul { /* ul: remove unnecessary formatting */
+  padding: 0px;
+  padding-right: 30px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-bar li /* li: remove unnecessary formatting */ {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Content */
+.main-content {
+  height: 55%;
+}
+
+.left-section {
+  width: 50%;
+  padding-left: 12%;
+  margin-top: 10%;
+  text-align: left;
+}
+
+.content-headings {
+  line-height: 0.2; /* Decrease height between content heading elements */
+}
+
+.content-headings h1 {
+  font-size: 60px;
+}
+
+.content-headings h2 {
+  font-size: 48px;
+}
+
+.left-section p {
+  color: gray;
+}
+
+.left-section button {
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #92704e;
+}
+
+.right-section {
+  width: 50%;
+}
+
+/* Footer */
+
+footer { /* Basic Bar Setup */
+  text-align: left;
+  padding-left: 5%;
+}
+
+footer ul { /* ul: remove unnecessary formatting */
+  padding: 0px;
+  padding-right: 30px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer li /* li: remove unnecessary formatting */ {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+}
+
+footer li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1300px) {
+  body {
+    background-position: 180% 50%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body {
+    background-position: 220% 50%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    background-position: 260% 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    background-position: 350% 50%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  body {
+    background-position: 450% 50%;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  body {
+    background-position: 0% 50%;
+  }
+  .nav-items li /* vertical */ {
+    display: grid;
+  }
+}
