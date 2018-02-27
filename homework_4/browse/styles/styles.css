@@ -66,22 +66,12 @@ header {
 }
 
 /* Content */
-.main-content {
-  height: 55%;
-}
-
 .left-section {
-  width: 30%;
-  padding-left: 5%;
   text-align: left;
 }
 
 .left-section p {
   color: gray;
-}
-
-.right-section {
-  width: 70%;
 }
 
 /* Responsive Design */
@@ -127,4 +117,20 @@ header {
   height: 1px;
   width: 70%;
   display: block;
+}
+/* Content - Two Columns */
+#wrapper {
+  margin-right: 300px;
+}
+.left-section {
+  float: left;
+  width: 300px;
+}
+.right-section {
+  float: right;
+  width: 100%;
+  margin-right: -300px;
+}
+#cleared {
+  clear: both;
 }
