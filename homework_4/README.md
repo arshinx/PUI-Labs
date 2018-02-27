@@ -2,6 +2,8 @@
 
 Developing a website based on the [InVision prototype](https://invis.io/5ZG19FPHVTU) and High Fidelity Designs made in earlier iteration [(during homework 3)](https://invis.io/5ZG19FPHVTU).
 
+View Project 4 [Here](http://arshin.me/PUI-Labs/homework_4): [Homework 4 - Web Design for Flip Stitch Pillows](http://arshin.me/PUI-Labs/homework_4).
+
 ### Specs and Key Tasks:
 
 #### Create HTML files for each of the 3 required pages:
