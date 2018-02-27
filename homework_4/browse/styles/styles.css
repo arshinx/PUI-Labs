@@ -94,8 +94,8 @@ header {
 /* Filters Menu */
 
 .color-choice {
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
   display: inline-block;
   border-radius: 24px;
   margin-right: 10px;
@@ -121,8 +121,8 @@ header {
 
 .horizontal-line {
   margin-top: 16px;
-  background-color: #e5e5e5;
-  border-color: #e5e5e5;
+  background-color: lightgray;
+  border-color: lightgray;
   color: #000;
   height: 1px;
   width: 100%;
