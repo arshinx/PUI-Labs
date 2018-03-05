@@ -57,9 +57,13 @@ function generateRandomAge() {
   return generateRandomIndex(35);
 }
 
+/*
+** Generates a random animal
+** Randomly selects animal type, name and age
+*/
 function generateRandomAnimal() {
   // random index to choose animal type
   var animalIndex = generateRandomIndex(animals.length);
   // create and return animal
-  return animals[animalIndex](generateRandomName(), generateRandomAge()); 
+  return animals[animalIndex](generateRandomName(), generateRandomAge());
 }
