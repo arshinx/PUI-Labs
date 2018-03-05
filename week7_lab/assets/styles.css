@@ -58,5 +58,8 @@ header {
 .new-animal-button {
   width: 200px;
   height: 40px;
+  color: white;
+  font-size: 15;
+  font-weight: 600;
   background-color: #bedca1;
 }
