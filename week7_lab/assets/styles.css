@@ -36,3 +36,7 @@ header {
 .right-section span h4 {
   display: inline-flex;
 }
+
+.right-section span p {
+  display: inline-flex;
+}
