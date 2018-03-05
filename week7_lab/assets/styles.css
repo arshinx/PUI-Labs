@@ -24,6 +24,7 @@ header {
   float: right;
   width: 100%;
   margin-right: -50%;
+  margin-top: 15%;
 }
 #cleared {
   clear: both;
