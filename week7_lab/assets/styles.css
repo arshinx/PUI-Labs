@@ -36,6 +36,9 @@ header {
 /* Content */
 .right-section span h4 {
   display: inline-flex;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fef;
 }
 
 .right-section span p {
