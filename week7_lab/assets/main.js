@@ -85,6 +85,8 @@ $(document).ready(function() {
     $(".animal-type").html(animal.type);
     // Update Name
     $(".animal-name").html(animal.name);
+    // Update Age
+    $(".animal-age").html(animal.age + " years old");
   });
 
 });
