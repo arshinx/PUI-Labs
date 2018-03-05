@@ -34,8 +34,11 @@ header {
 }
 
 /* Content */
-.right-section span h4 {
+.right-section span {
   padding-left: 10px;
+}
+
+.right-section span h4 {
   display: inline-flex;
   font-size: 40px;
   font-weight: 400;
@@ -43,6 +46,5 @@ header {
 }
 
 .right-section span p {
-  padding-left: 10px;
   display: inline-flex;
 }
