@@ -54,3 +54,9 @@ header {
 .right-section span p {
   display: inline-flex;
 }
+
+.new-animal-button {
+  width: 200px;
+  height: 40px;
+  background-color: #bedca1;
+}
