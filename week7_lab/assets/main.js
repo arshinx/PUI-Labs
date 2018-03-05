@@ -79,6 +79,8 @@ $(document).ready(function() {
   $(".new-animal-button").click(function(){
     // Get Animal
     var animal = generateRandomAnimal();
+    // Age adjustment
+    if (animal.age === 0) animal.age = 0.5;
     // Update Image
     $(".animal-image").attr("src", animal.image);
     // Update Type
