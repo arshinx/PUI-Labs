@@ -74,5 +74,5 @@ function generateRandomAnimal() {
 
 // --- DOM Functionality --- //
 $(document).ready(function() {
-	  
+	  var animal = generateRandomAnimal(); // get animal
 }
