@@ -45,5 +45,5 @@ function generateRandomIndex(maxIndex) {
 ** Returns name as a String
 */
 function generateRandomName() {
-
+  return names(generateRandomIndex(names.length));
 }
