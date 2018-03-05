@@ -24,3 +24,6 @@ function Rabbit(name, age) {
   this.type = "Rabbit";
   this.image = "rabbit.svg";
 }
+
+// --- Variables --- //
+var animal = [new PolarBear, new Lion, new Rabbit];
