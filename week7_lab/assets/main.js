@@ -64,6 +64,10 @@ function generateRandomAge() {
 function generateRandomAnimal() {
   // random index to choose animal type
   var animalIndex = generateRandomIndex(animals.length);
-  // create and return animal
-  return animals[animalIndex](generateRandomName(), generateRandomAge());
+  // get a random animal
+  var animal = animals[animalIndex]
+  // identify and create animal
+  if (animal instanceof PolarBear) return new PolarBear(generateRandomName(), generateRandomAge());
+  else if (animal instanceof Lion) return new Lion(generateRandomName(), generateRandomAge());
+  else return new Rabbit(generateRandomName(), generateRandomAge());
 }
