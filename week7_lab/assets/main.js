@@ -47,3 +47,12 @@ function generateRandomIndex(maxIndex) {
 function generateRandomName() {
   return names(generateRandomIndex(names.length));
 }
+
+/*
+** Generates a random age
+** Returns age as int
+** Assume that the age of "0" implies "less than a year"
+*/
+function generateRandomAge() {
+  return generateRandomIndex(35);
+}
