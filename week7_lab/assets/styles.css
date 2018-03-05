@@ -61,6 +61,8 @@ header {
 .new-animal-button {
   width: 200px;
   height: 40px;
+  font-family: mrs-eaves-xl-serif, serif;
+  font-style: normal;
   color: white;
   font-size: 15;
   font-weight: 600;
