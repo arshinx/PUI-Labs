@@ -5,8 +5,8 @@
 function PolarBear(name, age) {
   this.name = name;
   this.age = age;
-  this.type = “MyAnimal”;
-  this.image = “anImageOfMyAnimal.jpg”;
+  this.type = “Polar Bear”;
+  this.image = “polar_bear.svg”;
 }
 
 // Lion (Constructor)
