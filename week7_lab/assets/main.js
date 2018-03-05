@@ -73,10 +73,15 @@ function generateRandomAnimal() {
 }
 
 // --- DOM Functionality --- //
-$(".new-animal-button").click(function(){
-  // Get Animal
-  var animal = generateRandomAnimal();
-  // Update Image
-  $("img").attr("src", animal.image); 
-  // Update Text
+$(document).ready(function() {
+
+  // "New Animal" Button Click
+  $(".new-animal-button").click(function(){
+    // Get Animal
+    var animal = generateRandomAnimal();
+    // Update Image
+    $("img").attr("src", animal.image);
+    // Update Text
+  });
+
 });
