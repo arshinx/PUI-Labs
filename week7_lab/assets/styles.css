@@ -14,7 +14,9 @@ header {
   margin-top: 2%;
 }
 
-/* Content - Two Columns */
+/**** Content ****/
+
+/* Content - Two Columns Setup */
 .left-section {
   float: left;
   width: 50%;
@@ -28,4 +30,9 @@ header {
 }
 #cleared {
   clear: both;
+}
+
+/* Content */
+.right-section span h4 {
+  
 }
