@@ -7,3 +7,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Content - Two Columns */
+.left-section {
+  float: left;
+  width: 50%;
+
+}
+.right-section {
+  float: right;
+  width: 100%;
+  margin-right: -50%;
+}
+#cleared {
+  clear: both;
+}
