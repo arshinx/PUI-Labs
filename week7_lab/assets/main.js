@@ -27,3 +27,4 @@ function Rabbit(name, age) {
 
 // --- Variables --- //
 var animals = [new PolarBear, new Lion, new Rabbit];
+var names   = ["Rio", "Tae", "Bon"];
