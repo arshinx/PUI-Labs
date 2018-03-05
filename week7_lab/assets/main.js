@@ -21,6 +21,6 @@ function Lion(name, age) {
 function Rabbit(name, age) {
   this.name = name;
   this.age = age;
-  this.type = “MyAnimal”;
-  this.image = “anImageOfMyAnimal.jpg”;
+  this.type = "Rabbit";
+  this.image = “rabbit.svg”;
 }
