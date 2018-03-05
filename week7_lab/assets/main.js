@@ -31,6 +31,8 @@ var names   = ["Rio", "Tae", "Bon"];
 
 // --- Functions --- //
 
+// Return random number based on input range
+// (between 0 to, and not including, maxIndex)
 function generateRandomIndex(maxIndex) {
   return Math.floor(Math.random() * maxIndex);
 }
