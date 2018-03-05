@@ -5,16 +5,16 @@
 function PolarBear(name, age) {
   this.name = name;
   this.age = age;
-  this.type = “Polar Bear”;
-  this.image = “polar_bear.svg”;
+  this.type = "Polar Bear";
+  this.image = "polar_bear.svg";
 }
 
 // Lion (Constructor)
 function Lion(name, age) {
   this.name = name;
   this.age = age;
-  this.type = “Lion”;
-  this.image = “lion.svg”;
+  this.type = "Lion";
+  this.image = "lion.svg";
 }
 
 // Rabbit (Constructor)
@@ -22,5 +22,5 @@ function Rabbit(name, age) {
   this.name = name;
   this.age = age;
   this.type = "Rabbit";
-  this.image = “rabbit.svg”;
+  this.image = "rabbit.svg";
 }
