@@ -60,7 +60,7 @@ header {
 }
 
 .new-animal-button {
-  width: 200px;
+  width: 250px;
   height: 40px;
   font-family: mrs-eaves-xl-serif, serif;
   font-style: normal;
@@ -68,4 +68,5 @@ header {
   font-size: 15;
   font-weight: 600;
   background-color: #bedca1;
+  margin-top: 5%;
 }
