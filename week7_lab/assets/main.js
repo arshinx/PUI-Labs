@@ -6,7 +6,7 @@ function PolarBear(name, age) {
   this.name = name;
   this.age = age;
   this.type = "Polar Bear";
-  this.image = "polar_bear.svg";
+  this.image = "assets/polar_bear.svg";
 }
 
 // Lion (Constructor)
@@ -14,7 +14,7 @@ function Lion(name, age) {
   this.name = name;
   this.age = age;
   this.type = "Lion";
-  this.image = "lion.svg";
+  this.image = "assets/lion.svg";
 }
 
 // Rabbit (Constructor)
@@ -22,7 +22,7 @@ function Rabbit(name, age) {
   this.name = name;
   this.age = age;
   this.type = "Rabbit";
-  this.image = "rabbit.svg";
+  this.image = "assets/rabbit.svg";
 }
 
 // --- Variables --- //
