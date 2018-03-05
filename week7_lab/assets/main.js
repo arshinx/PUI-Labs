@@ -83,6 +83,8 @@ $(document).ready(function() {
     $(".animal-image").attr("src", animal.image);
     // Update Type
     $(".animal-type").html(animal.type);
+    // Update Name
+    $(".animal-name").html(animal.name);
   });
 
 });
