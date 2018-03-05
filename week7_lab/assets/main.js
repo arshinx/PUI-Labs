@@ -10,11 +10,11 @@ function PolarBear(name, age) {
 }
 
 // Lion (Constructor)
-function PolarBear(name, age) {
+function Lion(name, age) {
   this.name = name;
   this.age = age;
-  this.type = “MyAnimal”;
-  this.image = “anImageOfMyAnimal.jpg”;
+  this.type = “Lion”;
+  this.image = “lion.svg”;
 }
 
 // Rabbit (Constructor)
