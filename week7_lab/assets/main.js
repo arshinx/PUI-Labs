@@ -30,6 +30,7 @@ var animals = [new PolarBear, new Lion, new Rabbit];
 var names   = ["Rio", "Tae", "Bon"];
 
 // --- Functions --- //
-function generateRandomIndex(maxIndex) {
 
+function generateRandomIndex(maxIndex) {
+  return Math.floor(Math.random() * maxIndex);
 }
