@@ -81,6 +81,8 @@ $(document).ready(function() {
     var animal = generateRandomAnimal();
     // Update Image
     $(".animal-image").attr("src", animal.image);
+    // Update Type
+    $("animal-type").innerText = animal.type;
   });
 
 });
