@@ -34,5 +34,5 @@ header {
 
 /* Content */
 .right-section span h4 {
-  
+  display: inline-flex;
 }
