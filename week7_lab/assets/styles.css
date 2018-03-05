@@ -40,6 +40,9 @@ header {
 /* Content */
 .right-section span {
   padding-left: 8%;
+  font-family: mrs-eaves-xl-serif, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .right-section span h4 {
