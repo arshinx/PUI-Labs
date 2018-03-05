@@ -80,8 +80,7 @@ $(document).ready(function() {
     // Get Animal
     var animal = generateRandomAnimal();
     // Update Image
-    $("img").attr("src", animal.image);
-    // Update Text
+    $(".animal-image").attr("src", animal.image);
   });
 
 });
