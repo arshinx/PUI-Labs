@@ -26,4 +26,4 @@ function Rabbit(name, age) {
 }
 
 // --- Variables --- //
-var animal = [new PolarBear, new Lion, new Rabbit];
+var animals = [new PolarBear, new Lion, new Rabbit];
