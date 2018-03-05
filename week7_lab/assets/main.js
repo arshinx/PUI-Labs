@@ -71,3 +71,8 @@ function generateRandomAnimal() {
   else if (animal instanceof Lion) return new Lion(generateRandomName(), generateRandomAge());
   else return new Rabbit(generateRandomName(), generateRandomAge());
 }
+
+// --- DOM Functionality --- //
+$(document).ready(function() {
+	  
+}
