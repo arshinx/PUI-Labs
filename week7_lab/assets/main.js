@@ -82,7 +82,7 @@ $(document).ready(function() {
     // Update Image
     $(".animal-image").attr("src", animal.image);
     // Update Type
-    $("animal-type").innerText = animal.type;
+    $(".animal-type").html(animal.type);
   });
 
 });
