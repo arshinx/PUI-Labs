@@ -116,6 +116,9 @@ $(document).ready(function() {
   // Save Animal Button Click
   $("#saveButton").click(function(){
 
+    if (localStorage.getItem("currentState") == "save") {
+
+    } else if (localStorage.getItem("currentState") == "none") {
     }
   });
 });
