@@ -59,6 +59,10 @@ header {
   display: inline-flex;
 }
 
+.animal-image {
+  width: 80%;
+}
+
 .save-animal-button {
   width: 100px;
   height: 40px;
