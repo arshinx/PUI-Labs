@@ -24,6 +24,7 @@ header {
 .left-section {
   float: left;
   width: 50%;
+  text-align: center;
 
 }
 .right-section {
@@ -59,7 +60,7 @@ header {
 }
 
 .save-animal-button {
-  width: 250px;
+  width: 100px;
   height: 40px;
   font-family: mrs-eaves-xl-serif, serif;
   font-style: normal;
@@ -67,7 +68,6 @@ header {
   font-size: 15;
   font-weight: 600;
   background-color: #bedca1;
-  visibility: hidden;
 }
 
 .new-animal-button {
