@@ -113,4 +113,9 @@ $(document).ready(function() {
     showAnimal();
   });
 
+  // Save Animal Button Click
+  $("#saveButton").click(function(){
+
+    }
+  });
 });
