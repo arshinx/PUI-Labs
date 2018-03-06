@@ -67,6 +67,7 @@ header {
   font-size: 15;
   font-weight: 600;
   background-color: #bedca1;
+  visibility: hidden;
 }
 
 .new-animal-button {
