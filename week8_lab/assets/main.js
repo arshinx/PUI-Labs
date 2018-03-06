@@ -121,6 +121,8 @@ $(document).ready(function() {
       localStorage.setItem("savedAnimal", null);
       // Set text to "Save"
       $("#saveButton").html("Save");
+      // Current State (none)
+      localStorage.setItem("currentState", "none");
       // Log "Cleared"
       console.log("cleared");
 
@@ -129,6 +131,8 @@ $(document).ready(function() {
       localStorage.setItem("savedAnimal", JSON.stringify(animal));
       // Set text to "Clear" (now there should be an option to clear the saved animal)
       $("#saveButton").html("Clear");
+      // Current State (save)
+      localStorage.setItem("currentState", "save");
       // Log "Cleared"
       console.log("saved:");
       console.log(JSON.parse(localStorage.getItem("savedAnimal")));
