@@ -117,6 +117,10 @@ $(document).ready(function() {
   $("#saveButton").click(function(){
 
     if (localStorage.getItem("currentState") == "save") {
+      // Clear Animal
+      localStorage.setItem("savedAnimal", null);
+      // Log "Cleared"
+      console.log("cleared");
 
     } else if (localStorage.getItem("currentState") == "none") {
     }
