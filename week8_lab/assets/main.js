@@ -83,6 +83,24 @@ $(document).ready(function() {
   // Get Animal
   var animal = generateRandomAnimal();
 
+  // Show Animal
+  var showAnimal = function(){
+    if (localStorage.getItem("currentState") == "none") {
+      // Animal DNE
+      animal = generateRandomAnimal();
+      // Age adjustment
+      if (animal.age === 0) animal.age = 0.5;
+      // Update Image
+      $(".animal-image").attr("src", animal.image);
+      // Update Type
+      $(".animal-type").html(animal.type);
+      // Update Name
+      $(".animal-name").html(animal.name);
+      // Update Age
+      $(".animal-age").html(animal.age + " years old");
+    }
+  };
+
   // "New Animal" Button Click
   $(".new-animal-button").click(function(){
     // Get Animal
