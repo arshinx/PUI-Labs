@@ -1,0 +1,72 @@
+/* Styles */
+
+/* Base Styling */
+html, body { height: 100%;}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Heading */
+header {
+  font-family: amador, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40;
+  text-align: center;
+  margin-top: 6%;
+}
+
+/**** Content ****/
+
+/* Content - Two Columns Setup */
+.left-section {
+  float: left;
+  width: 50%;
+
+}
+.right-section {
+  float: right;
+  width: 100%;
+  margin-right: -50%;
+  margin-top: 6%;
+}
+#cleared {
+  clear: both;
+}
+
+/* Content */
+.right-section span {
+  padding-left: 8%;
+  font-family: mrs-eaves-xl-serif, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #606060;
+}
+
+.right-section span h4 {
+  display: inline-flex;
+  font-family: turquoise, serif;
+  font-style: normal;
+  font-size: 60;
+  font-weight: 400;
+  color: #428d27;
+}
+
+.right-section span p {
+  display: inline-flex;
+}
+
+.new-animal-button {
+  width: 250px;
+  height: 40px;
+  font-family: mrs-eaves-xl-serif, serif;
+  font-style: normal;
+  color: white;
+  font-size: 15;
+  font-weight: 600;
+  background-color: #bedca1;
+  margin-top: 5%;
+}
