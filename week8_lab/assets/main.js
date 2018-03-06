@@ -83,6 +83,9 @@ $(document).ready(function() {
   // Get Animal
   var animal = generateRandomAnimal();
 
+  // Current State (save, none)
+  localStorage.setItem("currentState", "none");
+
   // Show Animal
   var showAnimal = function(){
     if (localStorage.getItem("currentState") == "none") {
