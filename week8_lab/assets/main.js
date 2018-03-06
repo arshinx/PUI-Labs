@@ -102,7 +102,9 @@ $(document).ready(function() {
   };
 
   // "New Animal" Button Click
-  $(".new-animal-button").click(function(){
+  $(".new-animal-button").click(function() {
+    // Show a new animal, if save state = "none"
+    showAnimal();
   });
 
 });
