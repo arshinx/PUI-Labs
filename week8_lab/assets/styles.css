@@ -58,6 +58,17 @@ header {
   display: inline-flex;
 }
 
+.save-animal-button {
+  width: 250px;
+  height: 40px;
+  font-family: mrs-eaves-xl-serif, serif;
+  font-style: normal;
+  color: darkgreen;
+  font-size: 15;
+  font-weight: 600;
+  background-color: #bedca1;
+}
+
 .new-animal-button {
   width: 250px;
   height: 40px;
