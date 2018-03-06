@@ -24,6 +24,7 @@ header {
 .left-section {
   float: left;
   width: 50%;
+  text-align: center;
 
 }
 .right-section {
