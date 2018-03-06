@@ -17,6 +17,11 @@ function Lion(name, age) {
   this.image = "assets/lion.svg";
 }
 
+// Ability of (all) Lion(s)
+Lion.prototype.roar = function() {
+  console.log("Roooaaarrr!");
+}
+
 // Rabbit (Constructor)
 function Rabbit(name, age) {
   this.name = name;
