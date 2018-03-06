@@ -86,7 +86,7 @@ $(document).ready(function() {
   // Current State (save, none)
   localStorage.setItem("currentState", "none");
 
-  // Show Animal
+  // Show Animal (pre: runs if state is none)
   var showAnimal = function(){
     if (localStorage.getItem("currentState") == "none") {
       // Animal DNE
