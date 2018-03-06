@@ -58,6 +58,10 @@ header {
   display: inline-flex;
 }
 
+.animal-image {
+  width: 80%;
+}
+
 .new-animal-button {
   width: 250px;
   height: 40px;
