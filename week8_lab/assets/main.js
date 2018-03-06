@@ -133,6 +133,8 @@ $(document).ready(function() {
       $("#saveButton").html("Clear");
       // Current State (save)
       localStorage.setItem("currentState", "save");
+      // Show (keep showing) the saved animal
+      showAnimal(); // testing
       // Log "Cleared"
       console.log("saved:");
       console.log(JSON.parse(localStorage.getItem("savedAnimal")));
