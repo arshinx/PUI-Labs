@@ -123,6 +123,11 @@ $(document).ready(function() {
       console.log("cleared");
 
     } else if (localStorage.getItem("currentState") == "none") {
+      // Save Animal
+      localStorage.setItem("savedAnimal", JSON.stringify(animal));
+      // Log "Cleared"
+      console.log("saved:");
+      console.log(JSON.parse(localStorage.getItem("savedAnimal")));
     }
   });
 });
