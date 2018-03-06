@@ -80,6 +80,9 @@ function generateRandomAnimal() {
 // --- DOM Functionality --- //
 $(document).ready(function() {
 
+  // Get Animal
+  var animal = generateRandomAnimal();
+
   // "New Animal" Button Click
   $(".new-animal-button").click(function(){
     // Get Animal
