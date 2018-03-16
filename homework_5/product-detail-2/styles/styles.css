@@ -1,0 +1,183 @@
+/* Styles */
+
+/* Base Styling */
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar */
+header {
+  height: 22%;
+}
+
+.navigation-bar { /* Basic Bar Setup */
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+/* Organize navbar elements */
+.brand-logo {
+  float: left;
+  margin-left: 10%;
+  height: 70px;
+}
+
+.nav-items {
+  float: right;
+}
+
+.navigation-bar ul { /* ul: remove unnecessary formatting */
+  padding: 0px;
+  padding-right: 30px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-bar li /* li: remove unnecessary formatting */ {
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Content */
+.left-section {
+  text-align: left;
+}
+
+.left-section p {
+  color: gray;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 915px) {
+  .nav-items li /* vertical */ {
+    display: grid;
+  }
+}
+
+/* Filters Menu */
+
+.color-choice {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border-radius: 24px;
+  margin-right: 10px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.color-ul li {
+  display: inline;
+}
+
+.color-choice.green {
+  background-color: green;
+}
+.color-choice.yellow {
+  background-color: yellow;
+}
+.color-choice.orange {
+  background-color: orange;
+}
+.color-choice.blue{
+  background-color: blue;
+}
+
+.horizontal-line {
+  margin-top: 16px;
+  background-color: lightgray;
+  border-color: lightgray;
+  color: #000;
+  height: 1px;
+  width: 70%;
+  display: block;
+}
+
+.gray {
+  color: lightgray;
+}
+
+/* Content - Two Columns */
+#wrapper {
+  margin-right: 600px;
+}
+.left-section {
+  float: left;
+  width: 600px;
+
+}
+.right-section {
+  float: right;
+  width: 100%;
+  margin-right: -600px;
+}
+#cleared {
+  clear: both;
+}
+
+.main-content {
+  margin-left: 5%;
+}
+
+.back-button {
+  color: black;
+  background-color: lightgray;
+  height: 30px;
+  width: 75px;
+  margin-left: 5%;
+}
+
+/* Right Section */
+
+.right-section li {
+  list-style-type: none;
+}
+
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
+
+/* Pagination */
+.pagination {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.pagination button {
+  width: 150px;
+  height: 40px;
+  background-color: lightgray;
+  color: darkgray;
+}
+
+.spacer {
+  padding-top: 20px;
+}
+
+.spacer button {
+  height: 50px;
+  width: 100px;
+  margin-right: 15px;
+  color: white;
+  background-color: #92704e
+}
