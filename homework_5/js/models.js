@@ -1,3 +1,6 @@
+// --- Pillows --- //
+
+// Pillow (Constructor)
 function Pillow(name, description, type, shape, color, image) {
   this.name = name;
   this.description = description;
