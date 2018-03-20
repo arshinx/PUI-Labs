@@ -30,3 +30,4 @@ Revisions:
 - 0.6: Week 7 Lab (JavaScript Objects) added - on Mon, Mar 5 2018.
 - 0.7: Week 8 Lab (Local Storage) added - on Tue, Mar 6 2018.
 - 0.8: Homework 5 (Functional Website using JavaScript) in Progress - on Wed Mar 14 2018.
+- 0.9: Lab - Flip Stitch Website Critique
