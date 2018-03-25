@@ -27,4 +27,18 @@ var selectedProduct; // User selects product while browsing
 var shoppingCart = []; // Tracks Cart Items
 var Wishlist = []; // Tracks Wishlist Items
 var suggestedProducts = []; // 5 items excluding the selected item for carousel
+
+var shapes = ["Square", "Circle", "Triangle", "Heart"];
+var colors = ["Green", "Yellow", "Red", "Blue"];
+var images = [
+  ["assets/img/", "assets/img/", "assets/img/"], // 1
+  ["assets/img/", "assets/img/", "assets/img/"],
+  ["assets/img/", "assets/img/", "assets/img/"],
+  ["assets/img/", "assets/img/", "assets/img/"], // 4
+  ["assets/img/", "assets/img/", "assets/img/"],
+  ["assets/img/", "assets/img/", "assets/img/"], // 6
+  ["assets/img/", "assets/img/", "assets/img/"],
+  ["assets/img/", "assets/img/", "assets/img/"],
+  ["assets/img/", "assets/img/", "assets/img/"], // 9
+];
 }
