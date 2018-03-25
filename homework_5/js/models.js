@@ -109,6 +109,10 @@ function generateRandomShape() {
   return shapes[generateRandomIndex(0, shapes.length)];
 }
 
+/*
+** Gets a random color from the colors array
+** Returns color as a String
+*/
 function generateRandomColor() {
   return colors[generateRandomIndex(0, colors.length)];
 }
