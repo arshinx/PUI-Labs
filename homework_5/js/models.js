@@ -18,7 +18,7 @@ Pillow.prototype.changeShape = function(newShape) {
 
 // Change Color (and add Tint)
 Pillow.prototype.changeColor = function(newColor) {
-  this.currentState[2] = color;
+  this.currentState[2] = newColor;
 }
 
 // Change Price
