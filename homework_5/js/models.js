@@ -41,4 +41,53 @@ var images = [
   ["assets/img/", "assets/img/", "assets/img/"],
   ["assets/img/", "assets/img/", "assets/img/"], // 9
 ];
+
+var pillows = [
+  new Pillow(
+    "Waxed Canvas Comfort Pillow",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[0]
+  ),
+  new Pillow(
+    "B",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[1]
+  ),
+  new Pillow(
+    "C",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[2]
+  ),
+  new Pillow(
+    "D",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[3]
+  ),
+  new Pillow(
+    "E",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[4]
+  ),
+  new Pillow(
+    "F",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[5]
+  ),
+  new Pillow(
+    "G",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[6]
+  ),
+  new Pillow(
+    "H",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[7]
+  ),
+  new Pillow(
+    "I",
+    "Each Pillow is hand sewn in Portland, Oregon, by skilled seamstresses. We didn't cut any corners or skimped any materials when designing this Pillow. This Pillow will last for years of heavy use and will look even better the more you use it.",
+    [85, 95, 90, 100], shapes, colors, images[8]
+  ),
+];
+
 }
