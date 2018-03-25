@@ -11,7 +11,10 @@ function Pillow(name, description, prices, shapes, colors, images) {
   this.currentState = currentState; // [price, shape, color, image]
 }
 
+// Change Shape (and Image)
+Pillow.prototype.changeShape = function(newShape) {
   this.shape = shape;
+}
   this.color = color;
   this.image = image;
 }
