@@ -109,4 +109,8 @@ function generateRandomShape() {
   return shapes[generateRandomIndex(0, shapes.length)];
 }
 
+function generateRandomColor() {
+  return colors[generateRandomIndex(0, colors.length)];
+}
+
 }
