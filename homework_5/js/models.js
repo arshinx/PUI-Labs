@@ -117,4 +117,9 @@ function generateRandomColor() {
   return colors[generateRandomIndex(0, colors.length)];
 }
 
+function generateRandomPrice() {
+  var basePrice = generateRandomIndex(15, 155);
+  return (basePrice - basePrice%5);
+}
+
 }
