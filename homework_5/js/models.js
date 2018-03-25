@@ -127,4 +127,11 @@ function generateRandomPrice() {
   return (basePrice - basePrice%5);
 }
 
+function generateRandomPillow() {
+  // random index to choose animal type
+  var pillowIndex = generateRandomIndex(0, pillows.length);
+  // get a random animal
+  var pillow = pillows[pillowIndex]
+  // identify and create animal
+
 }
