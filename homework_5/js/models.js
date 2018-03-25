@@ -21,4 +21,10 @@ Pillow.prototype.changeColor = function(newColor) {
   this.color = color;
 }
 
+// --- Data --- //
+
+var selectedProduct; // User selects product while browsing
+var shoppingCart = []; // Tracks Cart Items
+var Wishlist = []; // Tracks Wishlist Items
+var suggestedProducts = []; // 5 items excluding the selected item for carousel
 }
