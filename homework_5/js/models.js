@@ -20,6 +20,10 @@ Pillow.prototype.changeShape = function(newShape) {
 Pillow.prototype.changeColor = function(newColor) {
   this.currentState[2] = color;
 }
+
+// Change Price
+Pillow.prototype.changePrice = function(newPrice) {
+  this.currentState[0] = newPrice;
 }
 
 // --- Data --- //
