@@ -117,6 +117,11 @@ function generateRandomColor() {
   return colors[generateRandomIndex(0, colors.length)];
 }
 
+/*
+** Gets a random price from an estimated range
+** Note: Price must be a multiple of 5
+** Returns price as a number/double
+*/
 function generateRandomPrice() {
   var basePrice = generateRandomIndex(15, 155);
   return (basePrice - basePrice%5);
