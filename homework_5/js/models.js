@@ -101,4 +101,8 @@ function generateRandomIndex(min, max) {
   return (Math.floor(Math.random() * max) + min);
 }
 
+function generateRandomShape() {
+  return shapes[generateRandomIndex(0, shapes.length)];
+}
+
 }
