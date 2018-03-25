@@ -101,6 +101,10 @@ function generateRandomIndex(min, max) {
   return (Math.floor(Math.random() * max) + min);
 }
 
+/*
+** Gets a random shape from the shapes array
+** Returns shape as a String
+*/
 function generateRandomShape() {
   return shapes[generateRandomIndex(0, shapes.length)];
 }
