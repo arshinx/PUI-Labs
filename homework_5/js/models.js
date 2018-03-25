@@ -90,6 +90,13 @@ var pillows = [
   ),
 ];
 
+// --- Functions --- //
+
+/*
+** "Helper Function"
+** Returns random number based on input range
+** (between 0 to, and not including, maxIndex)
+*/
 function generateRandomIndex(min, max) {
   return (Math.floor(Math.random() * max) + min);
 }
