@@ -13,7 +13,7 @@ function Pillow(name, description, prices, shapes, colors, images) {
 
 // Change Shape (and Image)
 Pillow.prototype.changeShape = function(newShape) {
-  this.currentState[1] = shape;
+  this.currentState[1] = newShape;
 }
 
 // Change Color (and add Tint)
