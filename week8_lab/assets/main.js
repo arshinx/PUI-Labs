@@ -70,7 +70,7 @@ function generateRandomAnimal() {
   // random index to choose animal type
   var animalIndex = generateRandomIndex(animals.length);
   // get a random animal
-  var animal = animals[animalIndex]
+  var animal = animals[animalIndex];
   // identify and create animal
   if (animal instanceof PolarBear) return new PolarBear(generateRandomName(), generateRandomAge());
   else if (animal instanceof Lion) return new Lion(generateRandomName(), generateRandomAge());
@@ -92,7 +92,7 @@ $(document).ready(function() {
       // Animal DNE
       animal = generateRandomAnimal();
       // Age adjustment
-      if (animal.age === 0) animal.age = 0.5;
+      if (animal.age === 0) animal.age = 1;
       // Update Image
       $(".animal-image").attr("src", animal.image);
       // Update Type
