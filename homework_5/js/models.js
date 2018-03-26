@@ -166,4 +166,6 @@ function generateRandomPillow() {
     generateRandomColor(),
     pillowImage
   ];
+  // return pillow
+  return pillow;
 }
