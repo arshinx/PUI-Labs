@@ -153,4 +153,6 @@ function generateRandomPillow() {
   var pillowIndex = generateRandomIndex(0, pillows.length);
   // get a random pillow
   var pillow = pillows[pillowIndex];
+  // set pillow prices
+  pillow.prices = generateRandomPrices();
 }
