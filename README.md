@@ -17,7 +17,7 @@ Labs
 Homeworks
 - [Homework 3 - InVision Prototype](https://invis.io/5ZG19FPHVTU)
 - [Homework 4 - Web Design for Flip Stitch Pillows](http://arshin.me/PUI-Labs/homework_4)
-- [Homework 5 - Flip Stitch Pillows Functional Website](http://arshin.me/PUI-Labs/homework_4)
+- [Homework 5 - Flip Stitch Pillows Functional Website](http://arshin.me/PUI-Labs/homework_5)
 
 Revisions:
 ----------
@@ -30,4 +30,10 @@ Revisions:
 - 0.6: Week 7 Lab (JavaScript Objects) added - on Mon, Mar 5 2018.
 - 0.7: Week 8 Lab (Local Storage) added - on Tue, Mar 6 2018.
 - 0.8: Homework 5 (Functional Website using JavaScript) in Progress - on Wed Mar 14 2018.
-- 0.9: Lab - Flip Stitch Website Critique
+- 0.9: Lab - Flip Stitch Website Critique - on Tue, Mar 20, 2018.
+- 1.0: Homework 5 (Functional Website using JavaScript) Completed, added - on Mon Mar 26 2018.
+
+Code Validated Using:
+--------------------
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
