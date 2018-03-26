@@ -134,6 +134,11 @@ header {
   margin-left: 5%;
 }
 
+.pillow-image {
+  width: 240px;
+  height: 300px;
+
+}
 /* Right Section */
 
 .column-left{ float: left; width: 33%; text-decoration: none;}
