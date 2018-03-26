@@ -1,13 +1,13 @@
 // --- Pillows --- //
 
 // Pillow (Constructor)
-function Pillow(name, description, prices, shapes, colors, images) {
+function Pillow(name, description, prices, shapes, colors, images, currentState) {
   this.name = name; // Distinct, remains same per product
   this.description = description; // Changes based on product
-  this.price = prices; // 4 Choices, changes based on shape
-  this.shape = shapes; // 4 Available Shapes, corresponding to image files
-  this.color = colors; // 4 choices, adds tint to each piece
-  this.image = images; // 4 images each corresponding to the indexed-shape
+  this.prices = prices; // 4 Choices, changes based on shape
+  this.shapes = shapes; // 4 Available Shapes, corresponding to image files
+  this.colors = colors; // 4 choices, adds tint to each piece
+  this.images = images; // 4 images each corresponding to the indexed-shape
   this.currentState = currentState; // ["price", "shape", "color", "image"]
 }
 
