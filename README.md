@@ -31,3 +31,8 @@ Revisions:
 - 0.7: Week 8 Lab (Local Storage) added - on Tue, Mar 6 2018.
 - 0.8: Homework 5 (Functional Website using JavaScript) in Progress - on Wed Mar 14 2018.
 - 0.9: Lab - Flip Stitch Website Critique
+
+Code Validated Using:
+--------------------
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
