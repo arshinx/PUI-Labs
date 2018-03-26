@@ -136,9 +136,11 @@ function generateRandomPrice(pillow) {
 ** Note: Price must be a multiple of 5
 ** Returns price as a number/double
 */
-function generateRandomPrice() {
-  var basePrice = generateRandomIndex(15, 155);
-  return (basePrice - basePrice%5);
+function generateRandomPrices() {
+  var basePrice = generateRandomIndex(25, 155);
+  var price = basePrice - basePrice%5;
+  var prices = [price-10, price, price+10, price+20];
+  return prices;
 }
 
 /*
