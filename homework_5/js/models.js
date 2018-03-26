@@ -111,8 +111,9 @@ function generateRandomIndex(min, max) {
 ** Gets a random shape from the shapes array
 ** Returns shape as a String
 */
-function generateRandomShape() {
-  return shapes[generateRandomIndex(0, shapes.length)];
+function generateRandomShapeImage(pillow) {
+  var random = generateRandomIndex(0, pillow.images.length);
+  return [pillow.shapes[random], pillow.images[random]];
 }
 
 /*
