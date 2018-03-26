@@ -37,15 +37,15 @@ var suggestedProducts = []; // 5 items excluding the selected item for carousel
 var shapes = ["Square", "Circle", "Triangle", "Heart"];
 var colors = ["Green", "Yellow", "Orange", "Blue"];
 var images = [
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/products/pillow-a-3.jpeg"], // 1
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"],
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"],
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"], // 4
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"],
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"], // 6
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"],
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"],
-  ["assets/img/products/pillow-a-1.jpeg", "assets/img/products/pillow-a-2.jpeg", "assets/img/"], // 9
+  ["./assets/products/pillow-a-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-a-3.jpeg"], // 1
+  ["./assets/products/pillow-b-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-c-1.jpeg"],
+  ["./assets/products/pillow-c-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-c-1.jpeg"],
+  ["./assets/products/pillow-a-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-c-1.jpeg"], // 4
+  ["./assets/products/pillow-b-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-c-1.jpeg"],
+  ["./assets/products/pillow-c-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-c-1.jpeg"], // 6
+  ["./assets/products/pillow-a-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-c-1.jpeg"],
+  ["./assets/products/pillow-b-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-a-3.jpeg"],
+  ["./assets/products/pillow-c-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-a-3.jpeg"], // 9
 ];
 
 var pillows = [
