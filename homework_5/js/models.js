@@ -124,6 +124,14 @@ function generateRandomColor() {
 }
 
 /*
+** Gets a random price from the prices array
+** Returns price as a Number/Double
+*/
+function generateRandomPrice(pillow) {
+  return pillow.prices[generateRandomIndex(0, pillow.prices.length)];
+}
+
+/*
 ** Gets a random price from an estimated range
 ** Note: Price must be a multiple of 5
 ** Returns price as a number/double
