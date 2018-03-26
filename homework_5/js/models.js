@@ -155,4 +155,8 @@ function generateRandomPillow() {
   var pillow = pillows[pillowIndex];
   // set pillow prices
   pillow.prices = generateRandomPrices();
+  // get pillow shape and img link
+  var pillowShapeImg = generateRandomShapeImage(pillow); // ["shape, "img]
+  var pillowShape = pillowShapeImg[0];
+  var pillowImage = pillowShapeImg[1];
 }
