@@ -86,4 +86,19 @@ $(document).ready(function() {
     // Reload Page
     location.reload();
   });
+  $(".add-to-wishlist").click(function(){
+    // Retrieve Wishlist Array (or create if DNE)
+    if (JSON.parse(localStorage.getItem("wishlist"))) {
+      wishlist = JSON.parse(localStorage.getItem("wishlist")); // get wishlist
+    } else {
+      wishlist = []; // create wishlist
+    }
+    // Get current product
+    selectedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
+    // Add Current Pillow to wishlist
+    wishlist.push(selectedProduct);
+    // Save wishlist
+    localStorage.setItem("wishlist", JSON.stringify(wishlist));
+  });
+
 });
