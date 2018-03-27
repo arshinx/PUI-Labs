@@ -34,6 +34,7 @@ Revisions:
 - 0.8: Homework 5 (Functional Website using JavaScript) in Progress - on Wed Mar 14 2018.
 - 0.9: Lab - Flip Stitch Website Critique - on Tue, Mar 20, 2018.
 - 1.0: Homework 5 (Functional Website using JavaScript) Completed, added - on Mon Mar 26 2018.
+- 1.1: Week 10 Labs (Google Maps API & Bootstrap) added - on Tue, Mar 27 2018.
 
 Code Validated Using:
 --------------------
