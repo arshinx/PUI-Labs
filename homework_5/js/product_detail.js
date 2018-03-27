@@ -99,6 +99,9 @@ $(document).ready(function() {
     wishlist.push(selectedProduct);
     // Save wishlist
     localStorage.setItem("wishlist", JSON.stringify(wishlist));
+
+    // Redirect to wishlist
+    window.location.href = "../wishlist/index.html";
   });
 
 });
