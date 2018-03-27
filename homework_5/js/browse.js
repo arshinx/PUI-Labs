@@ -15,6 +15,9 @@ $(document).ready(function() {
       generateRandomPillow()
     ];
 
+    // Save Pillow Set
+    localStorage.setItem("pillowSet", JSON.stringify(pillowSet));
+  }
 
 
 
