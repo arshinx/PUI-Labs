@@ -131,6 +131,9 @@ header {
   width: 800px;
 }
 
+.left-section img {
+  padding-left: 25%;
+}
 
 .right-section {
   float: right;
