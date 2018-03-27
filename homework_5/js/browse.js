@@ -50,6 +50,13 @@ $(document).ready(function() {
   $(".pillow-right-color").html(pillowSet[1].currentState[2]);
   // price
   $(".pillow-right-price").html("$" + pillowSet[1].currentState[0] + ".00");
+
+  // SAVE right pillow as Selected
+  $(".right-pillow").click(function() {
+    // Save Right Pillow Object
+    localStorage.setItem("selectedProduct", JSON.stringify(pillowSet[1]));
+  });
+
   // Center Pillow
   $(".pillow-center-image").attr("src", "../" + pillowSet[2].currentState[3]); // pic
   // name
