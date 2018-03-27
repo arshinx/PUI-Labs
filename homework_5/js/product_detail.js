@@ -39,7 +39,6 @@ $(document).ready(function() {
 
   // Get the selected product / pillow
   var selectedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
-  console.log(selectedProduct);
 
   // name
   $(".product-name").html(selectedProduct.name);
