@@ -67,4 +67,11 @@ $(document).ready(function() {
   $(".pillow-center-color").html(pillowSet[2].currentState[2]);
   // price
   $(".pillow-center-price").html("$" + pillowSet[2].currentState[0] + ".00");
+
+  // SAVE center pillow as selected
+  $(".center-pillow").click(function() {
+    // Save Center Pillow Object
+    localStorage.setItem("selectedProduct", JSON.stringify(pillowSet[2]));
+  });
+
 });
