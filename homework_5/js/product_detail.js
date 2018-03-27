@@ -69,4 +69,21 @@ $(document).ready(function() {
   // -- Cart and Wishlist --
   var cart, wishlist;
 
+  $(".add-to-cart").click(function() {
+    // Retrieve Cart Array (or create if DNE)
+    if (JSON.parse(localStorage.getItem("cart"))) {
+      cart = JSON.parse(localStorage.getItem("cart")); // get cart
+    } else {
+      cart = []; // create cart
+    }
+    // Get current product
+    selectedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
+    // Add Current Pillow to cart
+    cart.push(selectedProduct);
+    // Save Cart
+    localStorage.setItem("cart", JSON.stringify(cart));
+    console.log(cart);
+    // Reload Page
+    location.reload();
+  });
 });
