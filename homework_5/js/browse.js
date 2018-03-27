@@ -1,6 +1,5 @@
+// --- Product Browsing Page --- //
 
-
-// --- DOM Functionality --- //
 $(document).ready(function() {
 
 
