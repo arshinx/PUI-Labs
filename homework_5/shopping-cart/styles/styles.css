@@ -118,6 +118,10 @@ header {
   color: lightgray;
 }
 
+.shapeSelect {
+  background-color: azure;
+}
+
 /* Content - Two Columns */
 #wrapper {
 }
