@@ -23,4 +23,10 @@ function showCartItem(item, index) {
 }
 // HTML Loaded
 $(document).ready(function() {
+  // Cart
+  cart = JSON.parse(localStorage.getItem("cart"));
+  // Show all Items
+  for (var i = 0; i < cart.length; i++) {
+    showCartItem(cart[i], i);
+  }
 });
