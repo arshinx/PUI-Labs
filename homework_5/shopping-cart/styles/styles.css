@@ -11,6 +11,7 @@ body {
 /* Navigation Bar */
 header {
   height: 22%;
+  margin-bottom: 50px;
 }
 
 .navigation-bar { /* Basic Bar Setup */
