@@ -192,3 +192,11 @@ header {
   background-color: #92704e
 }
 
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
