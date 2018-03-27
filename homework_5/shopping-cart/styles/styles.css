@@ -214,5 +214,14 @@ footer {
 }
 
 .cart-item {
-  margin-bottom: 50px;
+  margin-bottom: 5px;
+}
+
+.checkout-button {
+  height: 40px;
+  width: 80px;
+  background-color: #92704f;
+  color: white;
+  font-weight: 200;
+  border-radius: 5px;
 }
