@@ -164,6 +164,7 @@ footer {
   background-color: #92704f;
   color: white;
   font-weight: 200;
+  border-radius:10px;
 }
 
 .wishlist h1 {
