@@ -74,4 +74,8 @@ $(document).ready(function() {
     localStorage.setItem("selectedProduct", JSON.stringify(pillowSet[2]));
   });
 
+  // Load More
+  $(".load-button").click(function() {
+  });
+
 });
