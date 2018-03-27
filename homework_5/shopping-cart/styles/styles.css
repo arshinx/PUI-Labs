@@ -200,3 +200,10 @@ footer {
   font-family: monospace;
 }
 
+.delete-item {
+  height: 40px;
+  background-color: #92704f;
+  color: white;
+  font-weight: 200;
+}
+
