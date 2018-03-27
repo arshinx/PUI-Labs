@@ -185,3 +185,9 @@ header {
   color: white;
   background-color: #92704e
 }
+
+/* Custom */
+.product-image {
+  width: 500px;
+  height: 500px;
+}
