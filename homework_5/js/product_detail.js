@@ -65,4 +65,8 @@ $(document).ready(function() {
   $(".color-choice.blue").click(function(){
     changeColor("Blue");
   });
+
+  // -- Cart and Wishlist --
+  var cart, wishlist;
+
 });
