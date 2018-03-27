@@ -23,5 +23,15 @@ $(document).ready(function() {
   // --
   console.log(pillowSet[0]);
 
+  // Left Pillow
+  $(".pillow-left-image").attr("src", "../" + pillowSet[0].currentState[3]); // pic
+  // name
+  $(".pillow-left-name").html(pillowSet[0].name);
+  // shape
+  $(".pillow-left-shape").html(pillowSet[0].currentState[1]);
+  // color
+  $(".pillow-left-color").html(pillowSet[0].currentState[2]);
+  // price
+  $(".pillow-left-price").html("$" + pillowSet[0].currentState[0] + ".00");
 
 }
