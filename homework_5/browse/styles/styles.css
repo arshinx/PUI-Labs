@@ -139,6 +139,16 @@ header {
   height: 300px;
 
 }
+
+.item-section {
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 /* Right Section */
 
 .column-left{ float: left; width: 33%; text-decoration: none;}
