@@ -34,4 +34,10 @@ $(document).ready(function() {
   // price
   $(".pillow-left-price").html("$" + pillowSet[0].currentState[0] + ".00");
 
+  // SAVE left pillow as Selected
+  $(".left-pillow").click(function() {
+    // Save Left Pillow Object
+    localStorage.setItem("selectedProduct", JSON.stringify(pillowSet[0]));
+  });
+
 });
