@@ -81,9 +81,10 @@ $(document).ready(function() {
     cart.push(selectedProduct);
     // Save Cart
     localStorage.setItem("cart", JSON.stringify(cart));
-    console.log(cart);
     // Reload Page
     location.reload();
+    // Redirect to cart
+    window.location.href = "../shopping-cart/index.html";
   });
   $(".add-to-wishlist").click(function(){
     // Retrieve Wishlist Array (or create if DNE)
