@@ -12,4 +12,6 @@ function totalPrice() {
   for (var i = 0; i < cart.length; i++) {
     totalPrice += cart[i].currentState[0];
   }
+  // Display Total Price
+  $(".total-price").html("Total: $" + totalPrice + ".00");
 }
