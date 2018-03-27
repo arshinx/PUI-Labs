@@ -23,6 +23,6 @@ function myMap() {
 	//first select the div we created for the google map on index.html
 	//then create a new google map passing in two arguments:
 	//1) where you want the map to render (the div) and 2) the map properties variable
-
-	var map = new google.maps.Map(googleMap, myHome);
+	var mapElement = document.getElementById('googleMap');
+	var map = new google.maps.Map(mapElement, mapProp);
 }
