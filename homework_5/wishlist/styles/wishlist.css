@@ -14,47 +14,6 @@ header {
   margin-bottom: 50px;
 }
 
-.navigation-bar { /* Basic Bar Setup */
-  height: 20%;
-  width: 100%;
-  text-align: center;
-  padding-top: 5%;
-}
-
-/* Organize navbar elements */
-.brand-logo {
-  float: left;
-  margin-left: 10%;
-  height: 70px;
-}
-
-.nav-items {
-  float: right;
-}
-
-.navigation-bar ul { /* ul: remove unnecessary formatting */
-  padding: 0px;
-  padding-right: 30px;
-  margin: 0px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.navigation-bar li /* li: remove unnecessary formatting */ {
-  list-style-type: none;
-  padding: 10px;
-  display: inline;
-}
-
-.navigation-bar li a {
-  color: black;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
 /* Content */
 .left-section {
   text-align: left;
