@@ -76,6 +76,16 @@ $(document).ready(function() {
 
   // Load More
   $(".load-button").click(function() {
+    // Generate Random pillows
+    pillowSet = [
+      generateRandomPillow(),
+      generateRandomPillow(),
+      generateRandomPillow()
+    ];
+    // Save Pillow Set
+    localStorage.setItem("pillowSet", JSON.stringify(pillowSet));
+    // Reload Page
+    location.reload();
   });
 
 });
