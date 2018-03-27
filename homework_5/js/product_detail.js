@@ -52,4 +52,17 @@ $(document).ready(function() {
   // pic
   $(".product-image").attr("src", "../" + selectedProduct.currentState[3]);
 
+  // Choosing a Color
+  $(".color-choice.green").click(function(){
+    changeColor("Green");
+  });
+  $(".color-choice.yellow").click(function(){
+    changeColor("Yellow");
+  });
+  $(".color-choice.orange").click(function(){
+    changeColor("Orange");
+  });
+  $(".color-choice.blue").click(function(){
+    changeColor("Blue");
+  });
 });
