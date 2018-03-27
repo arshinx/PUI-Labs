@@ -47,4 +47,9 @@ $(document).ready(function() {
   $(".product-price").html("$" + selectedProduct.currentState[0] + ".00");
   // shape
   $(".shapeSelect").val(selectedProduct.currentState[1]);
+  // color
+  changeColor(selectedProduct.currentState[2]);
+  // pic
+  $(".product-image").attr("src", "../" + selectedProduct.currentState[3]);
+
 });
