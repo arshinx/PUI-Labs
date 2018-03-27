@@ -15,6 +15,23 @@ function changeColor(color) {
   pillow.currentState[2] = color;
   localStorage.setItem("selectedProduct", JSON.stringify(pillow));
 
+  if (color == "Green") {
+    $(".product-image").attr('style','-webkit-filter: sepia(90%) hue-rotate(90deg)');
+    deselectColor();
+    $(".color-choice.green").attr('style','border: 5px solid #efbfbb'); // Chosen
+  } else if (color == "Yellow") {
+    $(".product-image").attr('style','-webkit-filter: sepia(90%) hue-rotate(25deg)');
+    deselectColor();
+    $(".color-choice.yellow").attr('style','border: 5px solid #efbfbb'); // Chosen
+  } else if (color == "Orange") {
+    $(".product-image").attr('style','-webkit-filter: sepia(90%) hue-rotate(320deg)');
+    deselectColor();
+    $(".color-choice.orange").attr('style','border: 5px solid #efbfbb'); // Chosen
+  } else { // blue
+    $(".product-image").attr('style','-webkit-filter: sepia(90%) hue-rotate(150deg)');
+    deselectColor();
+    $(".color-choice.blue").attr('style','border: 5px solid #efbfbb'); // Chosen
+  }
 }
 
 // -- Use JQuery
