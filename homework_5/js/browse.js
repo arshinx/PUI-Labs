@@ -50,4 +50,14 @@ $(document).ready(function() {
   $(".pillow-right-color").html(pillowSet[1].currentState[2]);
   // price
   $(".pillow-right-price").html("$" + pillowSet[1].currentState[0] + ".00");
+  // Center Pillow
+  $(".pillow-center-image").attr("src", "../" + pillowSet[2].currentState[3]); // pic
+  // name
+  $(".pillow-center-name").html(pillowSet[2].name);
+  // shape
+  $(".pillow-center-shape").html(pillowSet[2].currentState[1]);
+  // color
+  $(".pillow-center-color").html(pillowSet[2].currentState[2]);
+  // price
+  $(".pillow-center-price").html("$" + pillowSet[2].currentState[0] + ".00");
 });
