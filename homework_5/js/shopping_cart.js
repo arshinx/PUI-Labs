@@ -24,6 +24,16 @@ function showCartItem(item, index) {
 
 // On click - delete
 $(document).on("click", ".delete-item", function() {
+  // Delete element with id #
+  var index = $(this).parent().parent().parent().attr('id');
+  //cart = cart.splice(index, 1);
+  console.log(cart.splice(index, 1));
+  // Save Cart
+  localStorage.setItem("cart", JSON.stringify(cart));
+  // Remove Element from DOM
+  $(this).parent().parent().parent().remove();
+  // Reload Page
+  location.reload();
 });
 
 // HTML Loaded
