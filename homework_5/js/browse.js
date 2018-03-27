@@ -40,4 +40,14 @@ $(document).ready(function() {
     localStorage.setItem("selectedProduct", JSON.stringify(pillowSet[0]));
   });
 
+  // Right Pillow
+  $(".pillow-right-image").attr("src", "../" + pillowSet[1].currentState[3]); // pic
+  // name
+  $(".pillow-right-name").html(pillowSet[1].name);
+  // shape
+  $(".pillow-right-shape").html(pillowSet[1].currentState[1]);
+  // color
+  $(".pillow-right-color").html(pillowSet[1].currentState[2]);
+  // price
+  $(".pillow-right-price").html("$" + pillowSet[1].currentState[0] + ".00");
 });
