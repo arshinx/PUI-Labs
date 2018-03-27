@@ -29,4 +29,6 @@ $(document).ready(function() {
   for (var i = 0; i < cart.length; i++) {
     showCartItem(cart[i], i);
   }
+  // Show Total Price
+  totalPrice();
 });
