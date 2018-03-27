@@ -7,6 +7,16 @@ function deselectColor() {
   $(".color-choice.orange").attr('style','border: 1px solid #efbfbb');
   $(".color-choice.blue").attr('style','border: 1px solid #efbfbb');
 }
+
+function changeColor(color) {
+
+  // Update selected color for pillow
+  var pillow = JSON.parse(localStorage.getItem("selectedProduct"));
+  pillow.currentState[2] = color;
+  localStorage.setItem("selectedProduct", JSON.stringify(pillow));
+
+}
+
 // -- Use JQuery
 $(document).ready(function() {
 
