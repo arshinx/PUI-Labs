@@ -37,6 +37,14 @@ function changeColor(color) {
 // -- Use JQuery
 $(document).ready(function() {
 
+  // Get the selected product / pillow
   var selectedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
   console.log(selectedProduct);
+
+  // name
+  $(".product-name").html(selectedProduct.name);
+  // price
+  $(".product-price").html("$" + selectedProduct.currentState[0] + ".00");
+  // shape
+  $(".shapeSelect").val(selectedProduct.currentState[1]);
 });
