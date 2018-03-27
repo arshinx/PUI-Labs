@@ -34,4 +34,4 @@ $(document).ready(function() {
   // price
   $(".pillow-left-price").html("$" + pillowSet[0].currentState[0] + ".00");
 
-}
+});
