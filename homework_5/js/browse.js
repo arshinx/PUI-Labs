@@ -19,6 +19,9 @@ $(document).ready(function() {
     localStorage.setItem("pillowSet", JSON.stringify(pillowSet));
   }
 
+  // Show pillows
+  // --
+  console.log(pillowSet[0]);
 
 
 }
