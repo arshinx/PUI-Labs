@@ -15,7 +15,7 @@ function myMap() {
 	//Defines the properties of the map
 	var mapProp= {
 		center: myHome, //defines where the map is centered on load
-		zoom:5, //specifies map initial zoom level
+		zoom:7, //specifies map initial zoom level
 	};
 
 	//WRITE NEW CODE HERE
