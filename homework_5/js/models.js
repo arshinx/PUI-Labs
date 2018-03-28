@@ -44,8 +44,8 @@ var images = [
   ["./assets/products/pillow-e-1.jpg", "./assets/products/pillow-e-1.jpg", "./assets/products/pillow-e-1.jpg"],
   ["./assets/products/pillow-f-1.jpg", "./assets/products/pillow-f-1.jpg", "./assets/products/pillow-f-1.jpg"], // 6
   ["./assets/products/pillow-g-1.jpg", "./assets/products/pillow-g-1.jpg", "./assets/products/pillow-g-1.jpg"],
-  ["./assets/products/pillow-h-1.jpg", "./assets/products/pillow-h-1.jpg", "./assets/products/pillow-h-3.jpg"],
-  ["./assets/products/pillow-i-1.jpg", "./assets/products/pillow-i-1.jpg", "./assets/products/pillow-i-3.jpg"], // 9
+  ["./assets/products/pillow-h-1.jpg", "./assets/products/pillow-h-1.jpg", "./assets/products/pillow-h-1.jpg"],
+  ["./assets/products/pillow-i-1.jpg", "./assets/products/pillow-i-1.jpg", "./assets/products/pillow-i-1.jpg"], // 9
 ];
 
 var pillows = [
