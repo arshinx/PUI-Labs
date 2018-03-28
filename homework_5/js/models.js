@@ -40,12 +40,12 @@ var images = [
   ["./assets/products/pillow-a-1.jpeg", "./assets/products/pillow-a-2.jpeg", "./assets/products/pillow-a-3.jpeg"], // 1
   ["./assets/products/pillow-b-1.jpeg", "./assets/products/pillow-b-1.jpeg", "./assets/products/pillow-b-1.jpeg"],
   ["./assets/products/pillow-c-1.jpeg", "./assets/products/pillow-c-1.jpeg", "./assets/products/pillow-c-1.jpeg"],
-  ["./assets/products/pillow-d-1.jpeg", "./assets/products/pillow-d-1.jpeg", "./assets/products/pillow-d-1.jpeg"], // 4
-  ["./assets/products/pillow-e-1.jpeg", "./assets/products/pillow-e-1.jpeg", "./assets/products/pillow-e-1.jpeg"],
-  ["./assets/products/pillow-f-1.jpeg", "./assets/products/pillow-f-1.jpeg", "./assets/products/pillow-f-1.jpeg"], // 6
-  ["./assets/products/pillow-g-1.jpeg", "./assets/products/pillow-g-1.jpeg", "./assets/products/pillow-g-1.jpeg"],
-  ["./assets/products/pillow-h-1.jpeg", "./assets/products/pillow-h-1.jpeg", "./assets/products/pillow-h-3.jpeg"],
-  ["./assets/products/pillow-i-1.jpeg", "./assets/products/pillow-i-1.jpeg", "./assets/products/pillow-i-3.jpeg"], // 9
+  ["./assets/products/pillow-d-1.jpg", "./assets/products/pillow-d-1.jpg", "./assets/products/pillow-d-1.jpg"], // 4
+  ["./assets/products/pillow-e-1.jpg", "./assets/products/pillow-e-1.jpg", "./assets/products/pillow-e-1.jpg"],
+  ["./assets/products/pillow-f-1.jpg", "./assets/products/pillow-f-1.jpg", "./assets/products/pillow-f-1.jpg"], // 6
+  ["./assets/products/pillow-g-1.jpg", "./assets/products/pillow-g-1.jpg", "./assets/products/pillow-g-1.jpg"],
+  ["./assets/products/pillow-h-1.jpg", "./assets/products/pillow-h-1.jpg", "./assets/products/pillow-h-3.jpg"],
+  ["./assets/products/pillow-i-1.jpg", "./assets/products/pillow-i-1.jpg", "./assets/products/pillow-i-3.jpg"], // 9
 ];
 
 var pillows = [
