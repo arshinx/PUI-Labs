@@ -4,7 +4,7 @@ function showCarouselItem(item, index) {
   var carousel_ul = $(".carousel_ul");
   console.log(carousel_ul)
   console.log(item);
-  $("#carousel_ul").append('<li id="' + index +'"> <a><img class="carousel-image" src=".' + item.currentState[3] + '"></a><p class="carousel-name">' + item.name + '</p> <p class="carousel-price">' + item.currentState[0] + '</p><p class="carousel-shape">' + item.currentState[1] + '</p><p class="carousel-color">' + item.currentState[2] + '</p></li>');
+  $("#carousel_ul").append('<li class="carousel_li" id="' + index +'"> <a><img class="carousel-image" src=".' + item.currentState[3] + '"></a><p class="carousel-name">' + item.name + '</p> <p class="carousel-price">' + item.currentState[0] + '</p><p class="carousel-shape">' + item.currentState[1] + '</p><p class="carousel-color">' + item.currentState[2] + '</p></li>');
 }
 
 // HTML Loaded
@@ -50,5 +50,65 @@ $(document).ready(function() {
     $('#carousel_ul').css({'left' : '-210px'});
     });
   });
+
+  $('#0').click(function() {
+      // Save and open element with id #
+      var index = $(this).parent().parent().parent().attr('id');
+      var selectedProduct = carousel[index];
+      // Save Cart
+      localStorage.setItem("selectedProduct", JSON.stringify(selectedProduct));
+      // Reload Page
+      location.reload();
+    });
+
+    $('#1').click(function() {
+        // Save and open element with id #
+        var index = $(this).parent().parent().parent().attr('id');
+        var selectedProduct = carousel[index];
+        // Save Cart
+        localStorage.setItem("selectedProduct", JSON.stringify(selectedProduct));
+        // Reload Page
+        location.reload();
+      });
+
+      $('#2').click(function() {
+          // Save and open element with id #
+          var index = $(this).parent().parent().parent().attr('id');
+          var selectedProduct = carousel[index];
+          // Save Cart
+          localStorage.setItem("selectedProduct", JSON.stringify(selectedProduct));
+          // Reload Page
+          location.reload();
+        });
+
+        $('#3').click(function() {
+            // Save and open element with id #
+            var index = $(this).parent().parent().parent().attr('id');
+            var selectedProduct = carousel[index];
+            // Save Cart
+            localStorage.setItem("selectedProduct", JSON.stringify(selectedProduct));
+            // Reload Page
+            location.reload();
+          });
+
+        $('#4').click(function() {
+            // Save and open element with id #
+            var index = $(this).parent().parent().parent().attr('id');
+            var selectedProduct = carousel[index];
+            // Save Cart
+            localStorage.setItem("selectedProduct", JSON.stringify(selectedProduct));
+            // Reload Page
+            location.reload();
+          });
+
+          $('#5').click(function() {
+              // Save and open element with id #
+              var index = $(this).parent().parent().parent().attr('id');
+              var selectedProduct = carousel[index];
+              // Save Cart
+              localStorage.setItem("selectedProduct", JSON.stringify(selectedProduct));
+              // Reload Page
+              location.reload();
+            });
 
 }); // End Doc Ready
