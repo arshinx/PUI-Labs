@@ -38,7 +38,6 @@ function changeColor(color) {
 $(document).ready(function() {
 
   // Get the selected product / pillow
-  console.log(JSON.parse(localStorage.getItem("selectedProduct")));
   var selectedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
 
   // name
