@@ -169,3 +169,15 @@ function generateRandomPillow() {
   // return pillow
   return pillow;
 }
+
+// Generates and saves 5 carousel items
+function generateCarouselItems() {
+  var carousel = [
+    generateRandomPillow(),
+    generateRandomPillow(),
+    generateRandomPillow(),
+    generateRandomPillow(),
+    generateRandomPillow()
+  ];
+  return carousel;
+}
