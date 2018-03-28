@@ -1,0 +1,64 @@
+/* Carousel Styling */
+#carousel_inner {
+  float: left; /* important for inline positioning */
+  width: 630px; /* important (this width = width of list item(including margin) * items shown */
+  overflow: hidden;  /* important (hide the items outside the div) */
+  /* non-important styling bellow */
+}
+
+#carousel_ul {
+  position: relative;
+  left: -210px;
+  list-style-type: none; /* removing default styling for ul items */
+  margin: 0px;
+  padding: 0px;
+  width: 9999px; /* important */
+  /* non-important styling bellow */
+  padding-bottom: 10px;
+  background-color: #f7f6f6;
+}
+
+#carousel_ul li{
+  float: left; /* inline positioning of list items */
+  width: 200px;  /* fixed width, important */
+  /* just styling bellow*/
+  padding: 0px;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+  background-color: #f7f6f6;
+  text-align: center;
+}
+
+#carousel_ul li img {
+  .margin-bottom: -4px;
+  /* styling */
+  cursor: pointer;
+  cursor: hand;
+  border: 0px;
+}
+#left_scroll, #right_scroll{
+  float: left;
+  height: 300px;
+  width: 40px;
+  background: #C0C0C0;
+}
+#left_scroll img, #right_scroll img{
+  /*styling*/
+  cursor: pointer;
+  cursor: hand;
+  width: 40px;
+}
+
+.carousel {
+  padding-left: 5%;
+  height: 400px;
+}
+
+.carousel a img {
+  height: 120px;
+  width: 150px;
+}
