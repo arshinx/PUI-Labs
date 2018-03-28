@@ -8,10 +8,15 @@ function showCarouselItem(item, index) {
 // HTML Loaded
 $(document).ready(function() {
 
-  // Generate Carousel Items
-  carousel = generateCarouselItems();
-  console.log(carousel);
-  localStorage.setItem("carousel", JSON.stringify(carousel));
+  // Carousel doesn't change when user selects a product
+  if (JSON.parse(localStorage.getItem("carousel"))) {
+    carousel = JSON.parse(localStorage.getItem("carousel"));
+  } else {
+    // Generate Carousel Items
+    carousel = generateCarouselItems();
+    // Save Carousel Items
+    localStorage.setItem("carousel", JSON.stringify(carousel));
+  }
 
   // Show all Items
   for (var i = 0; i < carousel.length; i++) {
