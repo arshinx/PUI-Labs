@@ -37,7 +37,6 @@
   .margin-bottom: -4px;
   /* styling */
   cursor: pointer;
-  cursor: hand;
   border: 0px;
 }
 #left_scroll, #right_scroll{
@@ -49,7 +48,6 @@
 #left_scroll img, #right_scroll img{
   /*styling*/
   cursor: pointer;
-  cursor: hand;
   width: 40px;
 }
 
