@@ -12,6 +12,13 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="../styles/nav.css">
+    <link rel="stylesheet" type="text/css" href="../styles/carousel.css">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- JQuery -->
+    <script src="../js/models.js"></script> <!-- Custom -->
+    <script src="../js/product_detail.js"></script> <!-- Custom -->
+    <script src="../js/cart_tracker.js"></script> <!-- Custom -->
+    <script src="../js/carousel.js"></script> <!-- Custom -->
   </head>
 
   <!-- Body -->
@@ -61,7 +68,8 @@
         </select>
 
         <div class="spacer">
-          <button class="add-to-cart">Add to Cart</button><button class="add-to-wishlist">Add to Wishlist</button>
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="add-to-wishlist">Add to Wishlist</button>
         </div>
       </div>
 
@@ -72,12 +80,22 @@
 
       <!-- Formatting Div -->
       <div id="cleared"></div>
+    </div>
 
-      <!-- Scripts -->
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> <!-- JQuery -->
-      <script src="../js/models.js"></script> <!-- Custom -->
-      <script src="../js/product_detail.js"></script> <!-- Custom -->
-      <script src="../js/cart_tracker.js"></script> <!-- Custom -->
+    <!-- Carousel -->
+    <div class="carousel">
+      <br>
+      <div id="carousel_container">
+      <div id="left_scroll">
+        <img src="../assets/left_arrow.png">
+      </div>
+        <div id="carousel_inner">
+          <ul id="carousel_ul" style="left: -210px;"></ul>
+        </div>
+        <div id="right_scroll">
+          <img src="../assets/right_arrow.png">
+        </div>
+      </div>
     </div>
   </body>
 </html>
