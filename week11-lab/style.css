@@ -1,0 +1,12 @@
+nav {
+    margin: 0;
+}
+
+.product-selection {
+    display: inline-block;
+}
+
+.product-selection img {
+    width: 150px;
+    margin: 5px;
+}
