@@ -1,7 +1,15 @@
-// TODO (Step 2): fill in code creating products objects here
+// Creating products objects here
 var products = {
-    "cinnamonBuns": [    ]
+    "cinnamonBuns": [
+        {
+            "name": "Birthday Cake",
+            "price": "$2.00",
+            "img": "img/birthday-cake.jpg",
+            "id": 0
+        }
+    ]
 }
+
 
 $(document).ready(function(){
     // TODO (Step 4): fill in code for changing selection-template here
