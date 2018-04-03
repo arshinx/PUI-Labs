@@ -10,7 +10,7 @@ var products = {
         {
             "name": "Maple Walnut",
             "price": "$3.00",
-            "img": "img/lavendar.jpg",
+            "img": "img/lavender.jpg",
             "id": 1
         },
         {
@@ -37,8 +37,11 @@ $(document).ready(function(){
     // function call for 1st update to detail-template
     updateProductDetail(0);
 
-    // TODO: (Step 8): add code below for changing product details on click
-
+    // Changing product details on click
+    $("product-selection").click(function() {
+      var id = $(this).attr("id");
+      updateProductDetail(id);
+    });
 
 });
 
