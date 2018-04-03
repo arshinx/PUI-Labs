@@ -38,7 +38,7 @@ $(document).ready(function(){
     updateProductDetail(0);
 
     // Changing product details on click
-    $("product-selection").click(function() {
+    $(".product-selection").click(function() {
       var id = $(this).attr("id");
       updateProductDetail(id);
     });
