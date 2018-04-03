@@ -24,8 +24,7 @@ var products = {
 
 
 $(document).ready(function(){
-    // Changing selection template
-
+    // -- Changing selection template --
     // get the HTML template using jQuery
     var source = $("#selection-template").html();
     // compile the template into a function
@@ -35,6 +34,14 @@ $(document).ready(function(){
     // add the new HTML to the page
     $("#product-selection-container").append(newHTML);
 
+    // get the HTML template using jQuery
+    var source = $("#detail-template").html();
+    // compile the template into a function
+    var template = Handlebars.compile(source);
+    // create new HTML using our data
+    var newHTML = template(products);
+    // add the new HTML to the page
+    $("#product-detail-container").append(newHTML);
 
     // TODO (Step 7): add function call for 1st update to detail-template
 
