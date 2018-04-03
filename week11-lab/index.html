@@ -30,6 +30,13 @@
     <script id="detail-template" type="text/x-handlebars-template">
       <div class="product-detail">
           <!-- insert HTML for name, price, and img -->
+          {{#each cinnamonBuns}}
+              <div class="product-selection" id={{ id }}>
+                  <img src={{ img }}>
+                  <h2>{{ name }}</h2>
+                  <p>{{ price }}</p>
+              </div>
+          {{/each}}
       </div>
     </script>
 
