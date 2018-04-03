@@ -15,6 +15,7 @@ Labs
 - [Week 8 Lab: "Get Random Animal" Game w/ Save state](http://arshin.me/PUI-Labs/week8_lab/)
 - [Week 10 Lab: Google Maps API](http://arshin.me/PUI-Labs/week10_lab_googleMapsAPI/)
 - [Week 10 Lab: Bootstrap](http://arshin.me/PUI-Labs/week10_lab_bootstrap/)
+- [Week 11 Lab: Handlebars.JS](http://arshin.me/PUI-Labs/week11_lab/)
 
 Homeworks
 - [Homework 3 - InVision Prototype](https://invis.io/5ZG19FPHVTU)
