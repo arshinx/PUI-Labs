@@ -6,6 +6,18 @@ var products = {
             "price": "$2.00",
             "img": "img/birthday-cake.jpg",
             "id": 0
+        },
+        {
+            "name": "Maple Walnut",
+            "price": "$3.00",
+            "img": "img/birthday-cake.jpg",
+            "id": 0
+        },
+        {
+            "name": "Lavendar cinnamon buns",
+            "price": "$2.50",
+            "img": "img/birthday-cake.jpg",
+            "id": 0
         }
     ]
 }
