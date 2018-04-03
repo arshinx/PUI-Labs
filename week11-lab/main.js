@@ -34,15 +34,6 @@ $(document).ready(function(){
     // add the new HTML to the page
     $("#product-selection-container").append(newHTML);
 
-    // get the HTML template using jQuery
-    var source = $("#detail-template").html();
-    // compile the template into a function
-    var template = Handlebars.compile(source);
-    // create new HTML using our data
-    var newHTML = template(products);
-    // add the new HTML to the page
-    $("#product-detail-container").append(newHTML);
-
     // TODO (Step 7): add function call for 1st update to detail-template
 
 
@@ -51,7 +42,14 @@ $(document).ready(function(){
 
 });
 
-// TODO (Step 6): fill in function for updating detail-template based on id
+// Function for updating detail-template based on id
 function updateProductDetail(id) {
-
+  // get the HTML template using jQuery
+  var source = $("#detail-template").html();
+  // compile the template into a function
+  var template = Handlebars.compile(source);
+  // create new HTML using our data
+  var newHTML = template(products.cinnamonBuns[id]);
+  // add the new HTML to the page
+  $("#product-detail-container").append(newHTML);
 }
