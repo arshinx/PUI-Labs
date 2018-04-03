@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
-<head>
-    <!-- jQuery -->
-    <script src="lib/jquery.js"></script>
-    <!-- handlebars -->
-    <script src="lib/handlebars-v4.0.11.js"></script>
-    <!-- custon JavaScript -->
-    <script src="main.js"></script>
-    <!-- custom CSS -->
-    <link href="style.css" rel="stylesheet">
-</head>
+  <head>
+      <!-- jQuery -->
+      <script src="lib/jquery.js"></script>
+      <!-- handlebars -->
+      <script src="lib/handlebars-v4.0.11.js"></script>
+      <!-- custon JavaScript -->
+      <script src="main.js"></script>
+      <!-- custom CSS -->
+      <link href="style.css" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
     <div id="product-detail-container">
     </div>
     <div id="product-selection-container">
@@ -22,6 +22,7 @@
     {{#each cinnamonBuns}}
         <div class="product-selection" id={{ id }}>
             <img src={{ img }}>
+            <p>{{ name }}</p>
         </div>
     {{/each}}
     </script>
@@ -36,7 +37,5 @@
       </div>
     </div>
     </script>
-
-
-</body>
+  </body>
 </html>

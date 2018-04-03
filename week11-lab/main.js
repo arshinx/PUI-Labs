@@ -10,13 +10,13 @@ var products = {
         {
             "name": "Maple Walnut",
             "price": "$3.00",
-            "img": "img/lavender.jpg",
+            "img": "img/maple-walnut.jpg",
             "id": 1
         },
         {
             "name": "Lavendar cinnamon buns",
             "price": "$2.50",
-            "img": "img/maple-walnut.jpg",
+            "img": "img/lavender.png",
             "id": 2
         }
     ]
