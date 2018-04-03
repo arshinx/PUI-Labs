@@ -34,8 +34,8 @@ $(document).ready(function(){
     // add the new HTML to the page
     $("#product-selection-container").append(newHTML);
 
-    // TODO (Step 7): add function call for 1st update to detail-template
-
+    // function call for 1st update to detail-template
+    updateProductDetail(0);
 
     // TODO: (Step 8): add code below for changing product details on click
 
