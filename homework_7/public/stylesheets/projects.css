@@ -1,0 +1,144 @@
+/* Projects */
+
+
+/* Tibbit Talk  ---*/
+/* Text */
+#hero #hero-carousel-content .project-right-slide {
+  margin: 400;
+  padding: 0 0 500 700;
+}
+
+/* Spacing between sub-navs */
+.nav-home-subnav:after {
+  height: 0px;
+}
+
+/* Subnav Font-size */
+.nav-tibbittalk-subnav {
+  font-size: 10px;
+}
+
+/* Subnav bg */
+.nav-tibbittalk-subnav ul {
+  background: #715c86;
+}
+
+/* Subnav bold text */
+.nav-tibbittalk-subnav a {
+  color: #fff;
+}
+
+/* 1330px */
+@media all and (min-width: 1330px) {
+
+  body#tibbit-talk-project-large {
+    visibility: visible;;
+    display: block;
+  }
+  body .nav-tibbittalk-subnav {
+    visibility: visible;;
+    display: inline;
+  }
+
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 400 400 400 300;
+    padding: 0 0 500 400;
+  }
+}
+
+/* Larger Medium Screen - 1640*/
+@media all and (max-width: 1640px) {
+
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 400 400 400 400;
+    padding: 0 0 500 500;
+  }
+}
+
+/* Mid Medium Screen - 1430px */
+@media all and (max-width: 1430px) {
+
+  #tibbit-talk-project-large {
+    visibility: visible;;
+    display: block;
+  }
+  .nav-tibbittalk-subnav {
+    visibility: visible;;
+    display: inline;
+  }
+
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 400 400 400 400;
+    padding: 0 0 500 400;
+  }
+}
+
+/* 1220px */
+@media all and (max-width: 1100px) {
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 450 400 400 200;
+    padding: 0 0 500 400;
+  }
+
+  #tibbit-talk-project-large {
+    visibility: hidden;;
+    display: none;
+  }
+  .nav-tibbittalk-subnav {
+    visibility: hidden;;
+    display: none;
+  }
+}
+
+/*
+/* 1110px *
+@media all and (max-width: 1110px) {
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 450 400 400 200;
+    padding: 0 0 500 300;
+  }
+}
+
+/* 1012px *
+@media all and (max-width: 1012px) {
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 470 400 400 200;
+    padding: 0 0 500 200;
+  }
+}
+
+/* 910px *
+@media all and (max-width: 910px) {
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 490 400 400 200;
+    padding: 0 0 500 150;
+  }
+}
+
+/* 860px *
+@media all and (max-width: 860px) {
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 500 400 400 160;
+    padding: 0 0 500 100;
+  }
+}
+
+/* 708px *
+@media all and (max-width: 708px) {
+  #hero #hero-carousel-content .project-right-slide div p {
+    visibility: hidden;
+  }
+  #hero #hero-carousel-content .project-right-slide {
+    margin: 600 400 400 120;
+    padding: 0 0 500 100;
+  }
+}
+
+/* 475px *
+@media all and (max-width: 475px) {
+  #hero #hero-carousel-content .project-right-slide div h1 {
+    visibility: hidden;
+  }
+}
+
+*/
