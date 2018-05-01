@@ -21,7 +21,7 @@ Homeworks
 - [Homework 3 - InVision Prototype](https://invis.io/5ZG19FPHVTU)
 - [Homework 4 - Web Design for Flip Stitch Pillows](http://arshin.me/PUI-Labs/homework_4)
 - [Homework 5 - Flip Stitch Pillows Functional Website](http://arshin.me/PUI-Labs/homework_5)
-- [Homework 6 - Portfolio Website Designs](http://arshin.me/PUI-Labs/homework_6)
+- [Homework 6 - Portfolio Website Designs - InVision Prototype](https://invis.io/P2HTOFCFSVY#/294590477_Landing)
 - [Homework 7: Final Project - Personal / Portfolio Website](https://arshin.herokuapp.com/)
 - [Homework 7: Project Writeup](https://docs.google.com/document/d/1c8tOLYU4cLwKbq80K1mybYX9qHscEIJ0MD06uqZxqq0/view?usp=sharing)
 
